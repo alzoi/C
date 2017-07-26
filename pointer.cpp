@@ -44,3 +44,18 @@ int main()
     test2();
     
 }
+
+/*
+Результат:
+
+0x769eceae4e6c
+0x1df8af0
+0x769eceae4e6c
+7
+
+0x769eceae4e64
+0x1df8b50
+0x1df8b50
+101
+
+*/
