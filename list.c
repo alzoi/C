@@ -34,7 +34,7 @@ void list_del(struct list_head *node) {
 	next->prev = prev;
 }
 int list_empty(const struct list_head *list) {
-// Очистка списка.
+// Возвращает ненулевое значение (0), если данный список пуст, то есть если следующий элемент = тукущему.
 	return list->next == list;
 }
 struct list {
