@@ -45,28 +45,30 @@ struct list{
 
 void test(void){   
 // Заполнение двусвязного списка.
+	struct list_head p_list;
 	struct list *p1, *p2, *p3;
+	// В переменной p_list инициализируем пустой список.
+	list_init(&p_list);
+	// Первый элемент.
 	p1 = (struct list *)malloc(1*sizeof(struct list *));
 	p1->k = 5;
-	list_init(&p1->head);
-	//
+	list_add(&p1->head, &p_list);
+	// Второй элемент.
 	p2 = (struct list *)malloc(1*sizeof(struct list *));   
 	p2->k = 6;
 	list_add(&p2->head, &p1->head);
-	//
+	// Третий элемент.
 	p3 = (struct list *)malloc(1*sizeof(struct list *));   
 	p3->k = 7;
 	list_add(&p3->head, &p2->head);
 	//
 	printf("p1=%u, p2=%u, p3=%u\n", p1->k, p2->k, p3->k);
-	// Проходим по списку.
-	struct list_head *head = &p1->head;
-	struct list_head *ptr = head;
-	do{
-		struct list *tmp = (struct list *)ptr;
-		printf("p=%u\n", tmp->k);
-		ptr = ptr->next;
-	}while(ptr != head);
+	// Выводим даные из списка.
+	struct list_head *head = &p_list;
+	for(struct list_head *ptr = head->next; ptr != head; ptr = ptr->next){
+    		struct list *tmp = (struct list *)ptr;
+    		printf("p=%u\n", tmp->k);
+   	}	
 }
 int main(void){
 	test();
