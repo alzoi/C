@@ -4,8 +4,8 @@
 // https://www.ibm.com/developerworks/ru/library/l-linux_kernel_65/index.html
 struct list_head{
 	struct list_head
-		*prev,
-		*next;
+		*next,
+		*prev;
 };
 
 void list_init(struct list_head *list){
