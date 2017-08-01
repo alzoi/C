@@ -6,9 +6,12 @@
 // https://www.ibm.com/developerworks/ru/library/l-linux_kernel_65/index.html
 
 struct list_head {
+    // Указатель на элементы списка.
     struct list_head
-    *next,
-    *prev;
+        // Следующий элемент.
+        *next,
+        // Предыдущий элемент.
+        *prev;
 };
 
 void list_init(struct list_head *list) {
@@ -84,3 +87,12 @@ int main(void) {
     test();
     return 0;
 }
+
+/* Результат:
+
+p1=5, p2=6, p3=7
+p=5
+p=6
+p=7
+
+*/
