@@ -9,7 +9,7 @@ struct list_head{
 };
 
 void list_init(struct list_head *list){
-// Инициализация двусвязного списка.
+// Инициализация двусвязного списка (в списке нет элементов, указатель на список указывает сам на себя).
 	list->next = list->prev = list;
 }
 static void list_insert(struct list_head *node, struct list_head *prev, struct list_head *next){
@@ -52,11 +52,11 @@ void test(void){
 	//
 	p2 = (struct list *)malloc(1*sizeof(struct list *));   
 	p2->k = 6;
-	list_add_tail(&p2->head, &p1->head);
+	list_add(&p2->head, &p1->head);
 	//
 	p3 = (struct list *)malloc(1*sizeof(struct list *));   
 	p3->k = 7;
-	list_add_tail(&p3->head, &p2->head);
+	list_add(&p3->head, &p2->head);
 	//
 	printf("p1=%u, p2=%u, p3=%u\n", p1->k, p2->k, p3->k);
 	// Проходим по списку.
