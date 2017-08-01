@@ -44,8 +44,7 @@ int main() {
     return 0;
 }
 
-/*
-Результат:
+/* Результат:
 
 0x769eceae4e6c
 0x1df8af0
