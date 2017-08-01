@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 // https://www.ibm.com/developerworks/ru/library/l-linux_kernel_65/index.html
-struct list_head {
+struct list_head{
 	struct list_head
 		*prev,
 		*next;
@@ -19,7 +19,7 @@ static void list_insert(struct list_head *node, struct list_head *prev, struct l
 	prev->next = node;
 	next->prev = node;
 }
-void list_add_tail(struct list_head *node, struct list_head *list) {
+void list_add_tail(struct list_head *node, struct list_head *list){
 // Вставка узла node перед элементом list.
 	list_insert(node, list->prev, list);
 }
@@ -27,18 +27,18 @@ void list_add(struct list_head *node, struct list_head *list){
 // Вставка узла node после элемента list.
 	list_insert(node, list, list->next);
 }
-void list_del(struct list_head *node) {
+void list_del(struct list_head *node){
 // Удаление узла node из списка.
 	struct list_head *prev = node->prev;
 	struct list_head *next = node->next;
 	prev->next = next;
 	next->prev = prev;
 }
-int list_empty(const struct list_head *list) {
-// Возвращает ненулевое значение (0), если данный список пуст, то есть если следующий элемент = тукущему.
+int list_empty(const struct list_head *list){
+// Возвращает ненулевое значение (1 - true), если данный список пуст, то есть если следующий элемент = текущему.
 	return list->next == list;
 }
-struct list {
+struct list{
 	struct list_head head;
 	unsigned int k;
 };
