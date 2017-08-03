@@ -11,3 +11,5 @@ https://www.kernel.org/doc/gorman/html/understand/understand009.html
 https://habrahabr.ru/post/188010/  
 Сложность buddy аллокатора O(log(N)) - бинарный поиск, где N - показетель степени двойки.  
 Размер выделяемой памяти = (2^N*Размер страницы) Байт.
+- SLAB аллокатор  
+http://slideplayer.com/slide/3544296/
