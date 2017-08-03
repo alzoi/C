@@ -1,6 +1,7 @@
 # Аллокация (распределение) памяти
 
 ## Ссылки
+http://slideplayer.com/slide/1659576/  
 - линейный аллокатор  
 https://github.com/mtrebi/memory-allocators#time-complexity
 - buddy аллокатор  
