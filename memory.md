@@ -13,4 +13,5 @@ https://habrahabr.ru/post/188010/
 Размер выделяемой памяти = (2^N*Размер страницы) Байт.
 - SLAB аллокатор  
 http://slideplayer.com/slide/3544296/  
-https://www.kernel.org/pub/linux/kernel/people/marcelo/linux-2.4/mm/slab.c
+https://www.kernel.org/pub/linux/kernel/people/marcelo/linux-2.4/mm/slab.c  
+http://elixir.free-electrons.com/linux/v2.6.11/source/mm/slab.c
