@@ -2,6 +2,7 @@
 
 ## Ссылки
 http://slideplayer.com/slide/1659576/  
+https://www.kernel.org/doc/gorman/html/understand/understand009.html  
 - линейный аллокатор  
 https://github.com/mtrebi/memory-allocators#time-complexity
 - buddy аллокатор  
