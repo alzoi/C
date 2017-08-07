@@ -84,15 +84,15 @@ switch_threads:
 	useful_code0();
 	// Сохранение данных.
 	save_context0();
-	// Переключение на новый поток.
-	switch_threads();
+	// Системный вызов для переключения на новый поток.
+	call switch_threads();
 	Поток-1()
 		// Полезный код.
 		useful_code1();
 		// Сохранение данных.
 		save_context1();
-		// Переключение на новый поток.
-		switch_threads();
+		// Системный вызов для переключения на новый поток.
+		call switch_threads();
 	// Полезный код.
 	useful_code0();
 ```
