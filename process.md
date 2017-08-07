@@ -80,19 +80,26 @@ switch_threads:
 ![alt переключение потоков](https://hsto.org/getpro/habr/post_images/c2e/655/3a6/c2e6553a6d05d801375f45a34019f6ef.png)
 ```c
 Поток-0()
+// Полезный код.
+useful_code0();
+// Сохранение данных.
+save_context0();
+// Системный вызов для переключения на новый поток.
+switch_th(
+	call switch_threads
+	retq
+);
+Поток-1()
 	// Полезный код.
-	useful_code0();
+	useful_code1();
 	// Сохранение данных.
-	save_context0();
+	save_context1();
 	// Системный вызов для переключения на новый поток.
-	call switch_threads();
-	Поток-1()
-		// Полезный код.
-		useful_code1();
-		// Сохранение данных.
-		save_context1();
-		// Системный вызов для переключения на новый поток.
-		call switch_threads();
-	// Полезный код.
-	useful_code0();
+	switch_th(
+		call switch_threads
+		retq
+	);
+Поток-0()	
+// Полезный код.
+useful_code0();
 ```
