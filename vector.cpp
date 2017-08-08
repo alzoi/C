@@ -14,7 +14,7 @@ struct gs_th{
 };
 std::vector <struct gs_th> v_min;
 
-// Функция сравнения.
+// Функция сравнения элементов структуры.
 bool cmp(struct gs_th a, struct gs_th b) {
     return a.time < b.time;
 }
@@ -55,8 +55,7 @@ int main(void) {
    // (!)
    std::cout << "перестановки:" << std::endl;
    print(&v);
-   // После сортировки Перестановку делать не нужно, приведена для демонстрации.
-   // Выполняем перестановку с вектором.
+   // Перестановку выполняют после сортировки вектора.
    while(std::next_permutation(v.begin(), v.end(), cmp)) {
       print(&v);
    }   
