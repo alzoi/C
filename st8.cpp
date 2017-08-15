@@ -68,3 +68,28 @@ int main(void) {
    op4();	op5();	op6();	op1();	op2();	op3();	print();
    return 0;
 }
+
+/* Результат:
+
+a = 0 b = 1 c = 1 d = 1
+a = 0 b = 1 c = 1 d = 1
+a = 0 b = 1 c = 1 d = 1
+a = 0 b = 1 c = 1 d = 1
+a = 1 b = 1 c = 1 d = 1
+a = 1 b = 1 c = 1 d = 1
+a = 1 b = 1 c = 1 d = 1
+a = 1 b = 1 c = 1 d = 1
+a = 1 b = 1 c = 1 d = 1
+a = 1 b = 1 c = 1 d = 1
+a = 1 b = 1 c = 1 d = 1
+a = 1 b = 1 c = 1 d = 1
+a = 1 b = 1 c = 1 d = 1
+a = 1 b = 1 c = 1 d = 1
+a = 1 b = 1 c = 1 d = 1
+a = 1 b = 1 c = 1 d = 1
+a = 1 b = 0 c = 1 d = 1
+a = 1 b = 0 c = 1 d = 1
+a = 1 b = 0 c = 1 d = 1
+a = 1 b = 0 c = 1 d = 1
+
+*/
