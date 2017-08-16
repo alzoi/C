@@ -1,5 +1,5 @@
 // Работа с параллельными потоками в С++
-// Компиляция: g++ -lpthread main.cpp
+// Компиляция: g++ -std=c++11 -lpthread main.cpp
 
 #include <iostream>
 #include <unistd.h>
