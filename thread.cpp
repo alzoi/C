@@ -1,3 +1,6 @@
+// Работа с параллельными потоками в С++
+// Компиляция: g++ -lpthread main.cpp
+
 #include <iostream>
 #include <unistd.h>
 #include <thread>
@@ -31,7 +34,7 @@ int main(void){
          t1 = std::thread(thread1);      
          t0 = std::thread(thread0);
       }
-      // Ждём завершение потоков.
+      // Ждём завершение работы потоков.
       t0.join();
       t1.join();
       print();
