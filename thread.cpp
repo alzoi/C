@@ -8,11 +8,13 @@
 
 std::atomic_int a, b, c, d, k1, k2;
 void thread0(void){
+   std::cout << "Идентификатор потока " << std::this_thread::get_id() << std::endl;
    std::atomic_store(&c, 1);
    std::atomic_store(&a, std::atomic_load(&d));
 }
 
 void thread1(void){
+   std::cout << "Идентификатор потока " << std::this_thread::get_id() << std::endl;
    std::atomic_store(&d, 1);
    std::atomic_store(&b, std::atomic_load(&c));
 }
