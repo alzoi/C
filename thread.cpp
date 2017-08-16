@@ -1,7 +1,8 @@
 #include <iostream>
 #include <unistd.h>
-#include  <thread>
+#include <thread>
 #include <atomic>
+
 std::atomic_int a, b, c, d, k1, k2;
 void thread0(void){
    std::atomic_store(&c, 1);
