@@ -110,7 +110,7 @@ int main(int argc, char **argv) {
             free(cmd);
             break;
         }
-        // Запускаем конманду.
+        // Запускаем команду.
         run_cmd(cmd);
         free(cmd);
     }
