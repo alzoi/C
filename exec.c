@@ -48,7 +48,7 @@ static char **parse_cmd(const char *str) {
         strncpy(args[size], &str[p], i - p);
         // Ограничитель строки параметра.
         args[size][i - p] = '\0';
-        // Последний параметр = NULL.
+        // Последний параметр должен быть со значением NULL.
         args[++size] = NULL;
     }
     return args;
