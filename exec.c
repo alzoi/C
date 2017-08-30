@@ -55,7 +55,7 @@ static char **parse_cmd(const char *str) {
 }
 
 static void run_cmd(const char *cmd) {
-    // Выполнение команды, указанной в строке cmd.
+// Запуск на исполнение команды, указанной в строке cmd.
 
     // Создаём дочерний процесс.
     const pid_t pid = fork();
