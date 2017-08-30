@@ -11,3 +11,52 @@
 
 
 Общий участок памяти сохраняется после завершения программы, но при выключении компьютера данные общего участка памяти будут потеряны, так как они хранятся в оперативной, энергозависимой памяти.
+
+```c
+#include <sys/types.h>
+#include <sys/shm.h>
+#include <getopt.h>
+#include <unistd.h>
+#include <fcntl.h>
+
+#include <string.h>
+#include <stdlib.h>
+#include <stdio.h>
+
+int main(int argc, char **argv){
+	const key_t id = 3148;
+  // Размер общего участка памяти.
+	const int size = 4096;
+  // Получаем общий участок памяти с идентификатором id (если этот участок не существовал, то он будет создан в ОЗУ).
+  // Общий участок памяти предствавляется ОС в виде файла, функция возвращает указатель на файл.
+	const int fd = shmget(id, size, 0666 | IPC_CREAT);
+	if (fd < 0) {
+		printf("shmget failed\n");
+		return -1;
+	}
+  // Отображаем адреса общего участка памяти на логическое адресное пространство, получаем указатель на начало участка.
+	void *ptr = shmat(fd, (void *)0, 0);
+
+	if (ptr == (void *)-1) {
+		printf("shmat failed\n");
+		return -1;
+	}
+
+	char c;
+  // Считываем параметр, указанный при запуске программы.
+	while ((c = getopt(argc, argv, "p:g")) != -1) {
+		switch (c) {
+      case 'p':
+        // Записываем 
+        strcpy(ptr, optarg);
+			  break;
+		  case 'g':
+			  puts(ptr);
+			  break;
+		}
+	}
+	shmdt(ptr);
+
+	return 0;
+}
+```
