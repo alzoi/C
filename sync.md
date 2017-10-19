@@ -1,3 +1,9 @@
+If you get the source from github, you need to generate the configure script
+first:
+
+    $ ./autogen.shs
+sdfsdf
+
 # Синхронизация потоков  
 ## Ссылки
 https://habrahabr.ru/post/244881/
