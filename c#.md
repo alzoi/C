@@ -23,7 +23,7 @@ namespace WindowsFormsApp2 {
       }
 
       private void button1_Click(object sender, EventArgs e) {
-         string filename = "C:\\Users\\us\\Downloads\\01.xml";
+         string filename = "D:\\01.xml";
          
          // Список объектов.
          List<Person> LT_pers = new List<Person>();
