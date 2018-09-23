@@ -2,7 +2,7 @@
 // Сериализация.
 // https://metanit.com/sharp/tutorial/6.4.php
 
-"""
+```c#
 
 using System;
 using System.Collections.Generic;
