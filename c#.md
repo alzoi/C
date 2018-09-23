@@ -2,6 +2,7 @@
 // Сериализация.
 // https://metanit.com/sharp/tutorial/6.4.php
 
+"""
 
 using System;
 using System.Collections.Generic;
@@ -67,3 +68,4 @@ public class Person {
       Age = age;
    }
 }
+
