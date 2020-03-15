@@ -7,4 +7,4 @@
 |[exec.c](https://github.com/alzoi/C/blob/master/exec.c)| Командный интерпретатор |
 |[https://proglib.io/p/open-source/](https://proglib.io/p/open-source/)|Как получить опыт и зарабатывать на Open Source проектах|
 |[https://benchmarksgame-team.pages.debian.net](https://benchmarksgame-team.pages.debian.net/benchmarksgame/performance/revcomp.html)|Производительность языков программирования |
-https://idea.popcount.org/2017-02-20-epoll-is-fundamentally-broken-12/
+|https://idea.popcount.org/2017-02-20-epoll-is-fundamentally-broken-12/|мультиплексирования ввода / вывода|
