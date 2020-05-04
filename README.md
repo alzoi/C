@@ -50,7 +50,7 @@ http://iii.ru/
 http://validator.w3.org/  
 
 Анализ скорости web страниц  
-Google PageSpeed  
+https://developers.google.com/speed/pagespeed/insights/  
 https://webopulsar.ru/test/  
 https://web.archive.org/  
 http://www.nxdom.com/  
