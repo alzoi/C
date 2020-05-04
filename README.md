@@ -39,247 +39,248 @@ http://www.zdorovie-sila-arkaima.ru/
 
 Simple 8-bit Assembler Simulator  
 http://schweigi.github.io/assembler-simulator/
-Образовательный проект Продлёнка
 
-http://prodlenka.pro/
-Виртуальные консультанты А-я-яй.ру
+Образовательный проект Продлёнка  
+http://prodlenka.pro/  
 
-http://iii.ru/
-Сервис проверки HTML разметки
+Виртуальные консультанты А-я-яй.ру  
+http://iii.ru/  
 
-http://validator.w3.org/
-Анализ скорости web страниц
+Сервис проверки HTML разметки  
+http://validator.w3.org/  
 
-Google PageSpeed
-https://webopulsar.ru/test/
-https://web.archive.org/
-http://www.nxdom.com/
-http://www.123finder.com/
-http://www.dnsg.co.uk/
-Школа программирования
+Анализ скорости web страниц  
+Google PageSpeed  
+https://webopulsar.ru/test/  
+https://web.archive.org/  
+http://www.nxdom.com/  
+http://www.123finder.com/  
+http://www.dnsg.co.uk/  
 
-http://prog-school.ru/
-Learn C the hard way
+Школа программирования  
+http://prog-school.ru/  
 
-http://c.learncodethehardway.org/book/
-Онлайн-семинары от Microsoft по современным IT-технологиям
+Learn C the hard way  
+http://c.learncodethehardway.org/book/  
 
-http://techdays.ru/
-MSDN
+Онлайн-семинары от Microsoft по современным IT-технологиям  
+http://techdays.ru/  
 
-http://msdn.microsoft.com/ru-ru/
-Регистрация ИП
+MSDN  
+http://msdn.microsoft.com/ru-ru/  
 
-http://reg.smart-law.ru/
-http://www.iloveip.ru/
-Онлайн-бухгалтерия для индивидуальных предпринимателей
+Регистрация ИП  
+http://reg.smart-law.ru/  
+http://www.iloveip.ru/  
 
-https://www.moedelo.org/
-Компьютерные курсы
+Онлайн-бухгалтерия для индивидуальных предпринимателей  
+https://www.moedelo.org/  
 
-http://specialist.ru/
-Видеолекции ведущих лекторов России
+Компьютерные курсы  
+http://specialist.ru/  
 
-http://lektorium.tv/
-Технопарк MAIL.RU
+Видеолекции ведущих лекторов России  
+http://lektorium.tv/  
 
-https://tech-mail.ru/
-Mikhail Kurnosov
+Технопарк MAIL.RU  
+https://tech-mail.ru/  
 
-http://www.mkurnosov.net/
-Школа анализа данных
+Mikhail Kurnosov  
+http://www.mkurnosov.net/  
 
-https://yandexdataschool.ru/edu-process/courses/
-Основы веб-технологий
-Яндекс Технологии
+Школа анализа данных  
+https://yandexdataschool.ru/edu-process/courses/  
 
-http://tech.yandex.ru/
-Новости Яндекса и его сервисов
+Основы веб-технологий  
+Яндекс Технологии  
+http://tech.yandex.ru/  
 
-http://blog.yandex.ru/all/
-Помощь вебмастеру
+Новости Яндекса и его сервисов  
+http://blog.yandex.ru/all/  
 
-http://help.yandex.ru/webmaster/
-https://edu.expert.yandex.ru/Webmaster/
-Яндекс.Алгоритм
+Помощь вебмастеру  
+http://help.yandex.ru/webmaster/  
+https://edu.expert.yandex.ru/Webmaster/  
 
-http://contest.yandex.ru/
-Яндекс.Директ
+Яндекс.Алгоритм  
+http://contest.yandex.ru/  
 
-http://direct.yandex.ru/
-Google Webmaster
+Яндекс.Директ  
+http://direct.yandex.ru/  
+https://wordstat.yandex.ru/  
 
-https://sites.google.com/site/webmasterhelpforum/ru/
-Google AdWords
+Google Webmaster  
+https://sites.google.com/site/webmasterhelpforum/ru/  
 
-https://google.com/adwords/
-Курсы «Современная криптография» и
-«Безопасность приложений»
+Google AdWords  
+https://google.com/adwords/  
 
-http://course.secsem.ru/
-Основы Сетей (Networking)
+Курсы «Современная криптография» и «Безопасность приложений»  
+http://course.secsem.ru/  
 
-StartNetworkings
-IBM
+Основы Сетей (StartNetworkings)  
+http://www.youtube.com/user/startnetworkings?feature=watch  
 
-http://www.ibm.com/developerworks/ru/
-МГУ имени М. В. Ломоносова
+IBM  
+http://www.ibm.com/developerworks/ru/  
 
-http://www.regatta.cs.msu.su/
-http://parallel.ru/
-RSDN
+МГУ имени М. В. Ломоносова  
+http://www.regatta.cs.msu.su/  
+http://parallel.ru/  
 
-http://www.rsdn.ru/
-OpenNET
+RSDN  
+http://www.rsdn.ru/  
 
-http://www.opennet.ru/
-ГНУ/Линуксцентр
+OpenNET  
+http://www.opennet.ru/  
 
-http://www.linuxcenter.ru/
-Простые HTTP-серверы
+ГНУ/Линуксцентр  
+http://www.linuxcenter.ru/  
 
-ibm.com/developerworks/ru/
-Национальный Открытый Университет «ИНТУИТ»
+Простые HTTP-серверы  
+ibm.com/developerworks/ru/  
 
-http://www.intuit.ru/
-Материалы по практикуму для студентов ВМиК МГУ им. М.В. Ломоносова
+Национальный Открытый Университет «ИНТУИТ»  
+http://www.intuit.ru/  
 
-http://cmcmsu.no-ip.info/
-Си/Си++. От дилетанта до профессионала
+Материалы по практикуму для студентов ВМиК МГУ им. М.В. Ломоносова  
+http://cmcmsu.no-ip.info/  
 
-http://ermak.cs.nstu.ru/cprog/html/
-Конференция разработчиков высоконагруженных систем
+Си/Си++. От дилетанта до профессионала  
+http://ermak.cs.nstu.ru/cprog/html/  
 
+Конференция разработчиков высоконагруженных систем  
 http://www.highload.ru/
-Документация по Linux
 
-http://linux.yaroslavl.ru/
-Курс «Сетевое программирование в UNIX»
+Документация по Linux  
+http://linux.yaroslavl.ru/  
 
-http://www.youtube.com/watch?v=QMCXeejSxno/
-Документация по Linux
+Курс «Сетевое программирование в UNIX»  
+http://www.youtube.com/watch?v=QMCXeejSxno/  
 
-http://linux.yaroslavl.ru/
-Руководства UNIX-систем
+Документация по Linux  
+http://linux.yaroslavl.ru/  
 
-http://man.sourcentral.org/
-Руководство FreeBSD для разработчиков
+Руководства UNIX-систем  
+http://man.sourcentral.org/  
 
-http://www.freebsd.org.ru/developers-handbook/
-Справочник FreeBSD
+Руководство FreeBSD для разработчиков  
+http://www.freebsd.org.ru/developers-handbook/  
 
-http://www.freebsd.org.ua/man/
-http://muff.kiev.ua/menutree/menu-man/
-Руководство по разработке модулей для ядра Linux 2.6
+Справочник FreeBSD  
+http://www.freebsd.org.ua/man/  
+http://muff.kiev.ua/menutree/menu-man/  
 
-http://www.rldp.ru/ldp/lkmpg26r/
-Использование свободного, открытого ПО
+Руководство по разработке модулей для ядра Linux 2.6  
+http://www.rldp.ru/ldp/lkmpg26r/  
 
+Использование свободного, открытого ПО  
 http://wiki.val.bmstu.ru/
-Проект GNU
 
-http://www.gnu.org/
+Проект GNU  
+http://www.gnu.org/  
+
 Компилятор GCC
+http://gcc.gnu.org/  
 
-http://gcc.gnu.org/
-Принципы работы современных веб-браузеров
+Принципы работы современных веб-браузеров  
+http://www.html5rocks.com/ru/tutorials/  
 
-http://www.html5rocks.com/ru/tutorials/
 Wataru Nishida
+http://www.skyfree.org/  
 
-http://www.skyfree.org/
-Massachusetts Institute of Technology (MIT - Массачусетский технологический институт)
+Massachusetts Institute of Technology (MIT - Массачусетский технологический институт)  
+http://pdos.csail.mit.edu/6.828/  
 
-http://pdos.csail.mit.edu/6.828/
-The Zoo at Yale University (Зоопарк в Йельском университете)
+The Zoo at Yale University (Зоопарк в Йельском университете)  
+http://zoo.cs.yale.edu/classes/  
+http://zoo.cs.yale.edu/classes/cs422/2013/lec/l2-hw.shtml/  
+http://wiki.osdev.org/  
+http://ru.osdev.wikia.com/  
 
-http://zoo.cs.yale.edu/classes/
-http://zoo.cs.yale.edu/classes/cs422/2013/lec/l2-hw.shtml/
-http://wiki.osdev.org/
-http://ru.osdev.wikia.com/
-Руководства для разработчиков Intel
+Руководства для разработчиков Intel  
+http://www.intel.ru/content/www/ru/ru/processors/  
 
-http://www.intel.ru/content/www/ru/ru/processors/
-Блоги Intel
+Блоги Intel  
+http://software.intel.com/ru-ru/blogs/  
 
-http://software.intel.com/ru-ru/blogs/
-Документация по разработке ОС
+Документация по разработке ОС  
+http://dev64.wordpress.com/  
 
-http://dev64.wordpress.com/
-Основы работы в операционной системе Unix
+Основы работы в операционной системе Unix  
+http://linux.vt.tpu.ru/  
 
-http://linux.vt.tpu.ru/
-Программирование на C и C++
+Программирование на C и C++  
+http://cpp.com.ru/  
 
-http://cpp.com.ru/
 Документация о Linux
+http://www.iakovlev.org/  
 
-http://www.iakovlev.org/
-Архив Debian
+Архив Debian  
+http://cdimage.debian.org/cdimage/archive/  
 
-http://cdimage.debian.org/cdimage/archive/
-Загрузка образов CD/DVD дисков Debian через HTTP/FTP
+Загрузка образов CD/DVD дисков Debian через HTTP/FTP  
+http://www.debian.org/CD/http-ftp/  
 
-http://www.debian.org/CD/http-ftp/
 Архив FreeBSD
+ftp://ftp.freebsd.org/pub/FreeBSD/releases/  
 
-ftp://ftp.freebsd.org/pub/FreeBSD/releases/
-Архив ядра Linux
+Архив ядра Linux  
+https://www.kernel.org/pub/linux/kernel/Historic/  
 
-https://www.kernel.org/pub/linux/kernel/Historic/
 Хостинг
+https://fornex.com/  
 
-https://fornex.com/
 HighLoad
+http://myforce.ru/  
 
-http://myforce.ru/
 Параллельные вычисления
+https://computing.llnl.gov/  
 
-https://computing.llnl.gov/
-Московский физико-технический институт (МФТИ)
+Московский физико-технический институт (МФТИ)  
+http://mipt.ru/  
+http://cs.mipt.ru/docs/courses/osstud/os.html  
+http://edu.dvgups.ru  
+http://cs.mipt.ru/docs/comp/  
 
-http://mipt.ru/
-http://cs.mipt.ru/docs/courses/osstud/os.html
-http://edu.dvgups.ru
-http://cs.mipt.ru/docs/comp/
-Computer Science в МФТИ. Ассемблер
-Digital Design
+Computer Science в МФТИ. Ассемблер  
+http://web.archive.org/web/20150801005247/http://cs.mipt.ru/fileadmin/assembler/  
 
-http://frogs.digdes.ru/
-Планета информатики
+Digital Design  
+http://frogs.digdes.ru/  
 
-http://inf1.info/
-TCP/IP крупным планом
+Планета информатики  
+http://inf1.info/  
 
-http://www.soslan.ru/tcp/
-UNIX: учебный курс
+TCP/IP крупным планом  
+http://www.soslan.ru/tcp/  
 
-http://www.openspin.org/materials/courses/admin/
-Сетевые операционные системы
+UNIX: учебный курс  
+http://www.openspin.org/materials/courses/admin/  
 
-http://education.aspu.ru/view.php?olif=index/
-Блог Gustavo Duarte
+Сетевые операционные системы  
+http://education.aspu.ru/view.php?olif=index/  
 
-http://duartes.org/gustavo/blog/
-Журнал разработки операционной системы PhantomEx
+Блог Gustavo Duarte  
+http://duartes.org/gustavo/blog/  
 
+Журнал разработки операционной системы PhantomEx  
 http://phantomexos.blogspot.ru/
-http://maisvendoo.org/
-Компилятор compilr.com
+http://maisvendoo.org/  
 
-https://compilr.com/
-jsFiddle
+Компилятор compilr.com  
+https://compilr.com/  
 
-http://jsfiddle.net/
-Логотип git-scm.com
+jsFiddle  
+http://jsfiddle.net/  
 
-https://github.com/
-http://www.githubarchive.org/
-http://git-scm.com/book/ru/
+https://github.com/  
+http://www.githubarchive.org/  
+http://git-scm.com/book/ru/  
+
 Иконка для сайта
-
-http://www.favicon.cc/
-http://www.xiconeditor.com/
-http://realfavicongenerator.net/
-http://image.online-convert.com/
-http://www180.lunapic.com/
+http://www.favicon.cc/  
+http://www.xiconeditor.com/  
+http://realfavicongenerator.net/  
+http://image.online-convert.com/  
+http://www180.lunapic.com/  
