@@ -9,37 +9,35 @@
 |[https://benchmarksgame-team.pages.debian.net](https://benchmarksgame-team.pages.debian.net/benchmarksgame/performance/revcomp.html)|Производительность языков программирования |
 |[https://idea.popcount.org/epoll](https://idea.popcount.org/2017-02-20-epoll-is-fundamentally-broken-12/)|Мультиплексирование ввода/вывода|
 
-Подборка ссылок по изучению информационных технологий.
-Сервисы для Web-разработки
+Подборка ссылок по изучению информационных технологий.  
+Сервисы для Web-разработки  
+
 Видео курсы от Евгения Попова
+http://evgeniypopov.com/  
 
-http://evgeniypopov.com/
 Blogtactics
+http://blogtactics.ru/  
 
-http://blogtactics.ru/
-Создать сайт бесплатно
+Создать сайт бесплатно  
+http://nethouse.ru/  
+http://ru.wix.com/  
 
-http://nethouse.ru/
-http://ru.wix.com/
-Логотип shutterstock.com
+shutterstock.com  
 http://www.shutterstock.com/
-Логотип airbnb.ru
 
-https://www.airbnb.ru/
 http://darkside.vc/
 
-Курсы программирования IRBIS-team
+Курсы программирования IRBIS-team  
+http://irbis-team.com/  
 
-http://irbis-team.com/
-Скачивание файлов с сайтов
+Скачивание файлов с сайтов  
+http://ru.savefrom.net/  
+http://zasasa.com/ru/  
 
-http://ru.savefrom.net/
-http://zasasa.com/ru/
-Владимир Петрович Путенихин
+Владимир Петрович Путенихин  
+http://www.zdorovie-sila-arkaima.ru/  
 
-http://www.zdorovie-sila-arkaima.ru/
-Simple 8-bit Assembler Simulator
-
+Simple 8-bit Assembler Simulator  
 http://schweigi.github.io/assembler-simulator/
 Образовательный проект Продлёнка
 
