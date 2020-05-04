@@ -8,3 +8,280 @@
 |[https://proglib.io/p/open-source/](https://proglib.io/p/open-source/)|Как получить опыт и зарабатывать на Open Source проектах|
 |[https://benchmarksgame-team.pages.debian.net](https://benchmarksgame-team.pages.debian.net/benchmarksgame/performance/revcomp.html)|Производительность языков программирования |
 |[https://idea.popcount.org/epoll](https://idea.popcount.org/2017-02-20-epoll-is-fundamentally-broken-12/)|Мультиплексирование ввода/вывода|
+
+Подборка ссылок по изучению информационных технологий.
+Сервисы для Web-разработки
+Видео курсы от Евгения Попова
+
+http://evgeniypopov.com/
+Blogtactics
+
+http://blogtactics.ru/
+Создать сайт бесплатно
+
+http://nethouse.ru/
+http://ru.wix.com/
+Логотип shutterstock.com
+http://www.shutterstock.com/
+Логотип airbnb.ru
+
+https://www.airbnb.ru/
+http://darkside.vc/
+
+Курсы программирования IRBIS-team
+
+http://irbis-team.com/
+Скачивание файлов с сайтов
+
+http://ru.savefrom.net/
+http://zasasa.com/ru/
+Владимир Петрович Путенихин
+
+http://www.zdorovie-sila-arkaima.ru/
+Simple 8-bit Assembler Simulator
+
+http://schweigi.github.io/assembler-simulator/
+Образовательный проект Продлёнка
+
+http://prodlenka.pro/
+Виртуальные консультанты А-я-яй.ру
+
+http://iii.ru/
+Сервис проверки HTML разметки
+
+http://validator.w3.org/
+Анализ скорости web страниц
+
+Google PageSpeed
+https://webopulsar.ru/test/
+https://web.archive.org/
+http://www.nxdom.com/
+http://www.123finder.com/
+http://www.dnsg.co.uk/
+Школа программирования
+
+http://prog-school.ru/
+Learn C the hard way
+
+http://c.learncodethehardway.org/book/
+Онлайн-семинары от Microsoft по современным IT-технологиям
+
+http://techdays.ru/
+MSDN
+
+http://msdn.microsoft.com/ru-ru/
+Регистрация ИП
+
+http://reg.smart-law.ru/
+http://www.iloveip.ru/
+Онлайн-бухгалтерия для индивидуальных предпринимателей
+
+https://www.moedelo.org/
+Компьютерные курсы
+
+http://specialist.ru/
+Видеолекции ведущих лекторов России
+
+http://lektorium.tv/
+Технопарк MAIL.RU
+
+https://tech-mail.ru/
+Mikhail Kurnosov
+
+http://www.mkurnosov.net/
+Школа анализа данных
+
+https://yandexdataschool.ru/edu-process/courses/
+Основы веб-технологий
+Яндекс Технологии
+
+http://tech.yandex.ru/
+Новости Яндекса и его сервисов
+
+http://blog.yandex.ru/all/
+Помощь вебмастеру
+
+http://help.yandex.ru/webmaster/
+https://edu.expert.yandex.ru/Webmaster/
+Яндекс.Алгоритм
+
+http://contest.yandex.ru/
+Яндекс.Директ
+
+http://direct.yandex.ru/
+Google Webmaster
+
+https://sites.google.com/site/webmasterhelpforum/ru/
+Google AdWords
+
+https://google.com/adwords/
+Курсы «Современная криптография» и
+«Безопасность приложений»
+
+http://course.secsem.ru/
+Основы Сетей (Networking)
+
+StartNetworkings
+IBM
+
+http://www.ibm.com/developerworks/ru/
+МГУ имени М. В. Ломоносова
+
+http://www.regatta.cs.msu.su/
+http://parallel.ru/
+RSDN
+
+http://www.rsdn.ru/
+OpenNET
+
+http://www.opennet.ru/
+ГНУ/Линуксцентр
+
+http://www.linuxcenter.ru/
+Простые HTTP-серверы
+
+ibm.com/developerworks/ru/
+Национальный Открытый Университет «ИНТУИТ»
+
+http://www.intuit.ru/
+Материалы по практикуму для студентов ВМиК МГУ им. М.В. Ломоносова
+
+http://cmcmsu.no-ip.info/
+Си/Си++. От дилетанта до профессионала
+
+http://ermak.cs.nstu.ru/cprog/html/
+Конференция разработчиков высоконагруженных систем
+
+http://www.highload.ru/
+Документация по Linux
+
+http://linux.yaroslavl.ru/
+Курс «Сетевое программирование в UNIX»
+
+http://www.youtube.com/watch?v=QMCXeejSxno/
+Документация по Linux
+
+http://linux.yaroslavl.ru/
+Руководства UNIX-систем
+
+http://man.sourcentral.org/
+Руководство FreeBSD для разработчиков
+
+http://www.freebsd.org.ru/developers-handbook/
+Справочник FreeBSD
+
+http://www.freebsd.org.ua/man/
+http://muff.kiev.ua/menutree/menu-man/
+Руководство по разработке модулей для ядра Linux 2.6
+
+http://www.rldp.ru/ldp/lkmpg26r/
+Использование свободного, открытого ПО
+
+http://wiki.val.bmstu.ru/
+Проект GNU
+
+http://www.gnu.org/
+Компилятор GCC
+
+http://gcc.gnu.org/
+Принципы работы современных веб-браузеров
+
+http://www.html5rocks.com/ru/tutorials/
+Wataru Nishida
+
+http://www.skyfree.org/
+Massachusetts Institute of Technology (MIT - Массачусетский технологический институт)
+
+http://pdos.csail.mit.edu/6.828/
+The Zoo at Yale University (Зоопарк в Йельском университете)
+
+http://zoo.cs.yale.edu/classes/
+http://zoo.cs.yale.edu/classes/cs422/2013/lec/l2-hw.shtml/
+http://wiki.osdev.org/
+http://ru.osdev.wikia.com/
+Руководства для разработчиков Intel
+
+http://www.intel.ru/content/www/ru/ru/processors/
+Блоги Intel
+
+http://software.intel.com/ru-ru/blogs/
+Документация по разработке ОС
+
+http://dev64.wordpress.com/
+Основы работы в операционной системе Unix
+
+http://linux.vt.tpu.ru/
+Программирование на C и C++
+
+http://cpp.com.ru/
+Документация о Linux
+
+http://www.iakovlev.org/
+Архив Debian
+
+http://cdimage.debian.org/cdimage/archive/
+Загрузка образов CD/DVD дисков Debian через HTTP/FTP
+
+http://www.debian.org/CD/http-ftp/
+Архив FreeBSD
+
+ftp://ftp.freebsd.org/pub/FreeBSD/releases/
+Архив ядра Linux
+
+https://www.kernel.org/pub/linux/kernel/Historic/
+Хостинг
+
+https://fornex.com/
+HighLoad
+
+http://myforce.ru/
+Параллельные вычисления
+
+https://computing.llnl.gov/
+Московский физико-технический институт (МФТИ)
+
+http://mipt.ru/
+http://cs.mipt.ru/docs/courses/osstud/os.html
+http://edu.dvgups.ru
+http://cs.mipt.ru/docs/comp/
+Computer Science в МФТИ. Ассемблер
+Digital Design
+
+http://frogs.digdes.ru/
+Планета информатики
+
+http://inf1.info/
+TCP/IP крупным планом
+
+http://www.soslan.ru/tcp/
+UNIX: учебный курс
+
+http://www.openspin.org/materials/courses/admin/
+Сетевые операционные системы
+
+http://education.aspu.ru/view.php?olif=index/
+Блог Gustavo Duarte
+
+http://duartes.org/gustavo/blog/
+Журнал разработки операционной системы PhantomEx
+
+http://phantomexos.blogspot.ru/
+http://maisvendoo.org/
+Компилятор compilr.com
+
+https://compilr.com/
+jsFiddle
+
+http://jsfiddle.net/
+Логотип git-scm.com
+
+https://github.com/
+http://www.githubarchive.org/
+http://git-scm.com/book/ru/
+Иконка для сайта
+
+http://www.favicon.cc/
+http://www.xiconeditor.com/
+http://realfavicongenerator.net/
+http://image.online-convert.com/
+http://www180.lunapic.com/
