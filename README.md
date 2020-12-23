@@ -9,7 +9,8 @@
 |[https://benchmarksgame-team.pages.debian.net](https://benchmarksgame-team.pages.debian.net/benchmarksgame/performance/revcomp.html)|Производительность языков программирования |
 |[https://idea.popcount.org/epoll](https://idea.popcount.org/2017-02-20-epoll-is-fundamentally-broken-12/)|Мультиплексирование ввода/вывода|
 
-# Курсы по с++
+# Курсы по C++
+https://youtu.be/YXbrMny86U0  
 https://github.com/mtrempoltsev/msu_cpp_lectures  
 
 Подборка ссылок по изучению информационных технологий.  
