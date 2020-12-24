@@ -17,7 +17,8 @@ https://github.com/mtrempoltsev/msu_cpp_lectures
 https://stackoverflow.com/questions/22258589/c-on-the-back-end-of-web-app  
 https://github.com/microsoft/cpprestsdk  
 [How popular is C++ for making websites/web applications?](https://web.archive.org/web/20170305115144/https://stackoverflow.com/questions/417816/how-popular-is-c-for-making-websites-web-applications)  
-[Сервисы RESTful на C++](https://docs.microsoft.com/ru-ru/archive/msdn-magazine/2013/august/c-bringing-restful-services-to-c-developers)
+[Сервисы RESTful на C++](https://docs.microsoft.com/ru-ru/archive/msdn-magazine/2013/august/c-bringing-restful-services-to-c-developers)  
+[Статья по C++ REST SDK](https://medium.com/@ivan.mejia/modern-c-micro-service-implementation-rest-api-b499ffeaf898)  
 
 Подборка ссылок по изучению информационных технологий.  
 Сервисы для Web-разработки  
