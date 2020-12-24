@@ -51,7 +51,10 @@ https://github.com/microsoft/cpprestsdk
 	- Redis
 	- Cassandra
 	- AWS
-	- Firebase	
+	- Firebase
+4) API:
+	- RESTfull
+	- Swagger - для документирования
 
 # Подборка ссылок по изучению информационных технологий.  
 Сервисы для Web-разработки  
