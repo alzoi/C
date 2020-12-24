@@ -32,7 +32,7 @@ https://github.com/microsoft/cpprestsdk
 	- Go
 	- Ruby
 	- C++
-2) Фреймворки:
+2) фреймворки:
 	- Express(Node.js)
 	- Django (Python)
 	- ASP .Net Core (C#)
@@ -41,6 +41,17 @@ https://github.com/microsoft/cpprestsdk
 	- Golang (Go)
 	- Ruby on Rails (Ruby)
 	- C++ (C++)
+3) базы:
+	- PostgreSQL
+	- SQLite
+	- MySQL
+	- MS SQL
+	- Azure Cloud SQL
+	- MongoDB
+	- Redis
+	- Cassandra
+	- AWS
+	- Firebase	
 
 # Подборка ссылок по изучению информационных технологий.  
 Сервисы для Web-разработки  
