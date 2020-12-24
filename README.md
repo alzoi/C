@@ -22,7 +22,27 @@ https://github.com/microsoft/cpprestsdk
 [cpprestsdk Casablanca от Microsoft](https://github.com/Microsoft/cpprestsdk)  
 [Разработка веб-приложений и веб-сервисов на C++](http://artlang.net/post/razrabotka-veb-prilozheniy-veb-servisov-na-c++/)  
 
-Подборка ссылок по изучению информационных технологий.  
+## BackEnd стек:
+1) языки:
+	- Node.js
+	- Python
+	- C#
+	- Java
+	- PHP
+	- Go
+	- Ruby
+	- C++
+2) Фреймворки:
+	- Express(Node.js)
+	- Django (Python)
+	- ASP .Net Core (C#)
+	- Spring( Java)
+	- Laravel (PHP)
+	- Golang (Go)
+	- Ruby on Rails (Ruby)
+	- C++ (C++)
+
+# Подборка ссылок по изучению информационных технологий.  
 Сервисы для Web-разработки  
 
 Видео курсы от Евгения Попова
