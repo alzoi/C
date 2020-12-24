@@ -13,6 +13,10 @@
 https://youtu.be/YXbrMny86U0  
 https://github.com/mtrempoltsev/msu_cpp_lectures  
 
+# BackEnd C++ of web app
+https://stackoverflow.com/questions/22258589/c-on-the-back-end-of-web-app  
+https://github.com/microsoft/cpprestsdk  
+
 Подборка ссылок по изучению информационных технологий.  
 Сервисы для Web-разработки  
 
