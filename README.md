@@ -41,7 +41,7 @@ https://github.com/microsoft/cpprestsdk
 	- Laravel (PHP)
 	- Golang (Go)
 	- Ruby on Rails (Ruby)
-	- C++ (C++)
+	- Oat++, C++ (C++)
 3) базы:
 	- PostgreSQL
 	- SQLite
