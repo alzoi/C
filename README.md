@@ -23,7 +23,6 @@ https://github.com/microsoft/cpprestsdk
 [cpprestsdk Casablanca от Microsoft](https://github.com/Microsoft/cpprestsdk)  
 [Разработка веб-приложений и веб-сервисов на C++](http://artlang.net/post/razrabotka-veb-prilozheniy-veb-servisov-na-c++/)  
 [C++ Web Application Framework](https://cpp.libhunt.com/categories/839-web-application-framework)  
-
 [Oat++ An Open Source C++ Web Framework](https://oatpp.io/)  
 https://cpp.libhunt.com/oatpp-alternatives  
 
