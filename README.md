@@ -16,6 +16,7 @@ https://github.com/mtrempoltsev/msu_cpp_lectures
 # BackEnd C++ of web app
 https://stackoverflow.com/questions/22258589/c-on-the-back-end-of-web-app  
 https://github.com/microsoft/cpprestsdk  
+[ya.ru]https://web.archive.org/web/20170305115144/https://stackoverflow.com/questions/417816/how-popular-is-c-for-making-websites-web-applications  
 
 Подборка ссылок по изучению информационных технологий.  
 Сервисы для Web-разработки  
