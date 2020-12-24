@@ -14,6 +14,7 @@ https://youtu.be/YXbrMny86U0
 https://github.com/mtrempoltsev/msu_cpp_lectures  
 
 # BackEnd C++ of web app
+https://hackernoon.com/  
 https://stackoverflow.com/questions/22258589/c-on-the-back-end-of-web-app  
 https://github.com/microsoft/cpprestsdk  
 [How popular is C++ for making websites/web applications?](https://web.archive.org/web/20170305115144/https://stackoverflow.com/questions/417816/how-popular-is-c-for-making-websites-web-applications)  
