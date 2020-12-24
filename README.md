@@ -20,6 +20,7 @@ https://github.com/microsoft/cpprestsdk
 [Сервисы RESTful на C++](https://docs.microsoft.com/ru-ru/archive/msdn-magazine/2013/august/c-bringing-restful-services-to-c-developers)  
 [Статья по C++ REST SDK](https://medium.com/@ivan.mejia/modern-c-micro-service-implementation-rest-api-b499ffeaf898)  
 [cpprestsdk Casablanca от Microsoft](https://github.com/Microsoft/cpprestsdk)  
+[Разработка веб-приложений и веб-сервисов на C++](http://artlang.net/post/razrabotka-veb-prilozheniy-veb-servisov-na-c++/)  
 
 Подборка ссылок по изучению информационных технологий.  
 Сервисы для Web-разработки  
