@@ -22,6 +22,8 @@ https://github.com/microsoft/cpprestsdk
 [Статья по C++ REST SDK](https://medium.com/@ivan.mejia/modern-c-micro-service-implementation-rest-api-b499ffeaf898)  
 [cpprestsdk Casablanca от Microsoft](https://github.com/Microsoft/cpprestsdk)  
 [Разработка веб-приложений и веб-сервисов на C++](http://artlang.net/post/razrabotka-veb-prilozheniy-veb-servisov-na-c++/)  
+[Oat++ An Open Source C++ Web Framework](https://oatpp.io/)  
+https://cpp.libhunt.com/oatpp-alternatives  
 
 ## BackEnd стек:
 1) языки:
