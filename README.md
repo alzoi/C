@@ -28,6 +28,7 @@ https://github.com/microsoft/cpprestsdk
 [C++ Web Application Framework](https://cpp.libhunt.com/categories/839-web-application-framework)  
 [Oat++ An Open Source C++ Web Framework](https://oatpp.io/)  
 https://cpp.libhunt.com/oatpp-alternatives  
+https://github.com/cesanta/mongoose  
 
 ## BackEnd стек:
 1) языки:
