@@ -36,6 +36,7 @@ https://github.com/cesanta/mongoose
 http://nxweb.org/ru/  
 https://github.com/uNetworking/uWebSockets  
 https://www.cpp-vs.com/versus/go-simple-web-server  
+[разработка модулей nginx](https://www.evanmiller.org/nginx-modules-guide.html)
 
 ## BackEnd стек:
 1) языки:
