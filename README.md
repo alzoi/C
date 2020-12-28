@@ -28,6 +28,8 @@ https://github.com/microsoft/cpprestsdk
 [C++ Web Application Framework](https://cpp.libhunt.com/categories/839-web-application-framework)  
 [Oat++ An Open Source C++ Web Framework](https://oatpp.io/)  
 https://cpp.libhunt.com/oatpp-alternatives  
+https://github.com/civetweb/civetweb  
+https://github.com/ipkn/crow  
 https://github.com/cesanta/mongoose  
 https://github.com/uNetworking/uWebSockets  
 https://www.cpp-vs.com/versus/go-simple-web-server  
