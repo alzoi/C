@@ -29,6 +29,7 @@ https://github.com/microsoft/cpprestsdk
 [Oat++ An Open Source C++ Web Framework](https://oatpp.io/)  
 https://cpp.libhunt.com/oatpp-alternatives  
 https://github.com/cesanta/mongoose  
+https://github.com/uNetworking/uWebSockets  
 https://www.cpp-vs.com/versus/go-simple-web-server  
 
 ## BackEnd стек:
