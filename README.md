@@ -30,6 +30,7 @@ https://github.com/microsoft/cpprestsdk
 https://cpp.libhunt.com/oatpp-alternatives  
 https://github.com/civetweb/civetweb  
 https://github.com/ipkn/crow  
+https://www.boost.org/doc/libs/1_70_0/libs/beast/doc/html/index.html  
 https://github.com/cesanta/mongoose  
 https://github.com/uNetworking/uWebSockets  
 https://www.cpp-vs.com/versus/go-simple-web-server  
