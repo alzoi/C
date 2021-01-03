@@ -17,7 +17,7 @@ https://youtu.be/YXbrMny86U0
 https://github.com/mtrempoltsev/msu_cpp_lectures  
 
 # Производительность программа
-[https://benchmarksgame-team.pages.debian.net](https://benchmarksgame-team.pages.debian.net/benchmarksgame/index.html)
+[Which programming language is fastest?](https://benchmarksgame-team.pages.debian.net/benchmarksgame/index.html)
 
 # BackEnd C++ of web app
 [Building RESTful Web Service Using C++](https://hackernoon.com/building-restful-web-service-using-c-swagger-ui-and-auto-documented-endpoints-mb153udv)  
