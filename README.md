@@ -15,6 +15,7 @@ https://en.cppreference.com/w/cpp/links/libs
 # Курсы по C++
 https://youtu.be/YXbrMny86U0  
 https://github.com/mtrempoltsev/msu_cpp_lectures  
+https://teccxx.neocities.org/mx1/  
 
 # Производительность программа
 [Which programming language is fastest?](https://benchmarksgame-team.pages.debian.net/benchmarksgame/index.html)
