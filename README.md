@@ -11,7 +11,8 @@
 
 # Установка компилятора
 [mingw-w64](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/mingw-builds/8.1.0/threads-win32/dwarf/)  
-https://winlibs.com/
+https://winlibs.com/  
+https://github.com/brechtsanders/winlibs_mingw  
 
 # Руководства
 https://en.cppreference.com/
