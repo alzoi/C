@@ -14,7 +14,7 @@
 https://winlibs.com/
 
 # Руководства
-cppreference.com
+https://en.cppreference.com/
 
 # Библиотеки С++
 https://en.cppreference.com/w/cpp/links/libs  
