@@ -19,6 +19,7 @@ https://en.cppreference.com/
 
 # Библиотеки С++
 https://en.cppreference.com/w/cpp/links/libs  
+https://www.boost.org/
 
 # Курсы по C++
 https://youtu.be/YXbrMny86U0  
