@@ -26,6 +26,10 @@ https://youtu.be/YXbrMny86U0
 https://github.com/mtrempoltsev/msu_cpp_lectures  
 https://teccxx.neocities.org/mx1/  
 
+# Visual Studio Code
+[Цветовая тема Hop Light](https://marketplace.visualstudio.com/items?itemName=bubersson.theme-hop-light)  
+[Тема значков файлов Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
+
 # Производительность программа
 [Which programming language is fastest?](https://benchmarksgame-team.pages.debian.net/benchmarksgame/index.html)
 
