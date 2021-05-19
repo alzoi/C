@@ -28,7 +28,9 @@ https://teccxx.neocities.org/mx1/
 
 # Visual Studio Code
 [Цветовая тема Hop Light](https://marketplace.visualstudio.com/items?itemName=bubersson.theme-hop-light)  
-[Тема значков файлов Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
+[Тема значков файлов Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)  
+[Цветовая тема CLion Plus Theme](https://marketplace.visualstudio.com/items?itemName=meisammafi.clion-plus-theme)  
+
 
 # Производительность программа
 [Which programming language is fastest?](https://benchmarksgame-team.pages.debian.net/benchmarksgame/index.html)
