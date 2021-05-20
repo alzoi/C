@@ -13,7 +13,7 @@
 [mingw-w64](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/mingw-builds/8.1.0/threads-win32/dwarf/)  
 https://winlibs.com/  
 https://github.com/brechtsanders/winlibs_mingw  
-[Стабильная версия GCC 10.3.0](https://github.com/brechtsanders/winlibs_mingw/releases/download/11.1.0-12.0.0-8.0.2-r1/winlibs-i686-posix-dwarf-gcc-11.1.0-mingw-w64-8.0.2-r1.7z)
+[Стабильная версия GCC 10.3.0](https://github.com/brechtsanders/winlibs_mingw/releases/download/10.3.0-12.0.0-8.0.2-r1/winlibs-i686-posix-dwarf-gcc-10.3.0-mingw-w64-8.0.2-r1.7z)
 
 # Руководства
 https://en.cppreference.com/
