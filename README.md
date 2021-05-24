@@ -10,7 +10,7 @@
 |[https://idea.popcount.org/epoll](https://idea.popcount.org/2017-02-20-epoll-is-fundamentally-broken-12/)|Мультиплексирование ввода/вывода|
 
 # Установка компилятора
-[mingw-w64](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/mingw-builds/8.1.0/threads-win32/dwarf/)  версия 8.1.0 позволяет корректно отлаживать вектора std::vector.
+[mingw-w64](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/mingw-builds/8.1.0/threads-win32/dwarf/)  версия 8.1.0 позволяет корректно отлаживать вектора std::vector.  
 https://winlibs.com/  
 https://github.com/brechtsanders/winlibs_mingw  
 [Стабильная версия GCC 10.3.0](https://github.com/brechtsanders/winlibs_mingw/releases/download/10.3.0-12.0.0-8.0.2-r1/winlibs-i686-posix-dwarf-gcc-10.3.0-mingw-w64-8.0.2-r1.7z) при отладке векторов показывает тольк адреса, без значений.
