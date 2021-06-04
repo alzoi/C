@@ -17,7 +17,8 @@ https://github.com/brechtsanders/winlibs_mingw
 [Стабильная версия GCC 10.3.0](https://github.com/brechtsanders/winlibs_mingw/releases/download/10.3.0-12.0.0-8.0.2-r1/winlibs-i686-posix-dwarf-gcc-10.3.0-mingw-w64-8.0.2-r1.7z) при отладке slt контейнеров отображаются только адреса, без значений элементов.
 
 # Руководства
-https://en.cppreference.com/
+https://en.cppreference.com/  
+[C++ Development Setup with g++ and gdb on Windows 10 | VS Code](https://www.youtube.com/watch?v=ABVeAXcRIJg)  
 
 # Библиотеки С++
 https://en.cppreference.com/w/cpp/links/libs  
