@@ -18,7 +18,8 @@ https://github.com/brechtsanders/winlibs_mingw
 
 # Руководства
 https://en.cppreference.com/  
-[C++ Development Setup with g++ and gdb on Windows 10 | VS Code](https://www.youtube.com/watch?v=ABVeAXcRIJg)  
+[C++ Development Setup with g++ and gdb on Windows 10 | VS Code](https://www.youtube.com/watch?v=ABVeAXcRIJg) 
+[Книги](https://habr.com/ru/post/191312/)  
 
 # Библиотеки С++
 https://en.cppreference.com/w/cpp/links/libs  
