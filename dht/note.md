@@ -6,3 +6,6 @@ https://web.stanford.edu/class/cs242/materials.html
 
 # Stanford
 [explorecourses.stanford.edu](https://explorecourses.stanford.edu/search;jsessionid=sbhm6li6e8wf1mb63jxxxr8os?view=catalog&academicYear=&page=0&q=CS&filter-departmentcode-CS=on&filter-coursestatus-Active=on&filter-term-Winter=on)  
+
+# MIT
+https://ocw.mit.edu/  
