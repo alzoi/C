@@ -13,6 +13,7 @@ http://web.mit.edu/6.033/www/
 
 # Stanford
 [explorecourses.stanford.edu](https://explorecourses.stanford.edu/search;jsessionid=sbhm6li6e8wf1mb63jxxxr8os?view=catalog&academicYear=&page=0&q=CS&filter-departmentcode-CS=on&filter-coursestatus-Active=on&filter-term-Winter=on)  
+https://web.stanford.edu/class/ee380/summer-schedule.html  
 
 # MIT
 https://ocw.mit.edu/  
