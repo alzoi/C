@@ -18,3 +18,6 @@ https://www.youtube.com/watch?v=VfbRhSrJ4qA
 
 # MIT
 https://ocw.mit.edu/  
+
+# upd hole
+https://www.youtube.com/watch?v=TiMeoQt3K4g  
