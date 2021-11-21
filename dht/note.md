@@ -22,6 +22,6 @@ https://ocw.mit.edu/
 # upd hole
 https://www.youtube.com/watch?v=TiMeoQt3K4g  
 ```
- Узнать внешний ip своей машины
+Узнать внешний ip своей машины
 curl ipecho.net/plain && echo
 ```
