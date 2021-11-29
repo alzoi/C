@@ -99,6 +99,9 @@ https://github.com/mibamur/nginx-modules-guide/blob/master/small-dev-nginx-modul
 # Подборка ссылок по изучению информационных технологий.  
 Сервисы для Web-разработки  
 
+Университет открытого исходного кода  
+https://github.com/ossu/computer-science  
+
 Видео курсы от Евгения Попова
 http://evgeniypopov.com/  
 
