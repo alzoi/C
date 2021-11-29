@@ -235,6 +235,7 @@ http://www.intuit.ru/
 
 Материалы по практикуму для студентов ВМиК МГУ им. М.В. Ломоносова  
 http://cmcmsu.no-ip.info/  
+https://cmcmsu.info/  
 
 Си/Си++. От дилетанта до профессионала  
 http://ermak.cs.nstu.ru/cprog/html/  
