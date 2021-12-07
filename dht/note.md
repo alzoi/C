@@ -25,3 +25,7 @@ https://www.youtube.com/watch?v=TiMeoQt3K4g
 Узнать внешний ip своей машины
 curl ipecho.net/plain && echo
 ```
+
+# Набор библиотек
+https://github.com/microsoft/merklecpp  
+https://habr.com/ru/post/455260/  
