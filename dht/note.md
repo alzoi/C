@@ -30,3 +30,5 @@ curl ipecho.net/plain && echo
 https://github.com/microsoft/merklecpp  
 https://habr.com/ru/post/455260/  
 https://developer.mozilla.org/en-US/docs/Web/HTTP/Session  
+https://ru.wikipedia.org/wiki/SHA-2  
+
