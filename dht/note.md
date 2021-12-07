@@ -37,3 +37,4 @@ https://yandex.ru/search/?text=bitcoin.org%2Fbitcoin.pdf&lr=11115
 https://github.com/gabime/spdlog  
 https://www.networkstraining.com/peer-to-peer-vs-client-server-network/  
 https://www.boost.org/  
+https://github.com/eidheim/Simple-WebSocket-Server  
