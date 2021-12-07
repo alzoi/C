@@ -35,4 +35,4 @@ https://developer.mozilla.org/en-US/docs/Web/HTTP/Session
 https://ru.wikipedia.org/wiki/SHA-2  
 https://yandex.ru/search/?text=bitcoin.org%2Fbitcoin.pdf&lr=11115  
 https://github.com/gabime/spdlog  
-
+https://www.networkstraining.com/peer-to-peer-vs-client-server-network/  
