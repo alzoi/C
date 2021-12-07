@@ -27,7 +27,7 @@ curl ipecho.net/plain && echo
 ```
 
 # Blockchain
-(Курс MIT Blockchain)[https://ocw.mit.edu/courses/sloan-school-of-management/15-s12-blockchain-and-money-fall-2018/lecture-slides/]
+[Курс MIT Blockchain](https://ocw.mit.edu/courses/sloan-school-of-management/15-s12-blockchain-and-money-fall-2018/lecture-slides/)
 https://github.com/microsoft/merklecpp  
 https://habr.com/ru/post/455260/  
 https://developer.mozilla.org/en-US/docs/Web/HTTP/Session  
