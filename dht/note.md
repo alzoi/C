@@ -29,14 +29,16 @@ curl ipecho.net/plain && echo
 # Blockchain
 [Курс MIT Blockchain](https://ocw.mit.edu/courses/sloan-school-of-management/15-s12-blockchain-and-money-fall-2018/lecture-slides/)  
 https://en.wikipedia.org/wiki/Blockchain  
-https://github.com/microsoft/merklecpp  
 https://habr.com/ru/post/455260/  
 https://developer.mozilla.org/en-US/docs/Web/HTTP/Session  
 https://ru.wikipedia.org/wiki/SHA-2  
 https://yandex.ru/search/?text=bitcoin.org%2Fbitcoin.pdf&lr=11115  
-https://github.com/gabime/spdlog  
 https://www.networkstraining.com/peer-to-peer-vs-client-server-network/  
+## Библиотеки
 https://www.boost.org/  
+https://www.openssl.org/  
 https://github.com/eidheim/Simple-WebSocket-Server  
+https://github.com/microsoft/merklecpp  
+https://github.com/gabime/spdlog  
 https://github.com/seleznevae/libfort  
 https://github.com/nlohmann/json  
