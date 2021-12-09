@@ -47,3 +47,6 @@ https://github.com/nlohmann/json
 Пропускная способность современных сетевых интерфейсов может обеспечивать 10M параллельных (одновременных) соединений в секунду на одной машине.  
 Но в программных подходах для реализации этого количества соединений всё ещё есть сложности.
 
+http://www.kegel.com/c10k.html  
+[Shmoocon 2013 - C10M Defending The Internet At Scale](https://www.youtube.com/watch?v=73XNtI0w7jA#!)
+[C10M pdf](https://www.cs.dartmouth.edu/~sergey/cs258/2013/C10M-Defending-the-Internet-at-Scale-Dartmouth-2013.pdf)  
