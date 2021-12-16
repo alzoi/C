@@ -42,6 +42,7 @@ https://github.com/microsoft/merklecpp
 https://github.com/gabime/spdlog  
 https://github.com/seleznevae/libfort  
 https://github.com/nlohmann/json  
+https://habr.com/ru/post/595901/  
 
 # Проблема 10K и 10M
 Пропускная способность современных сетевых интерфейсов может обеспечивать 10M параллельных (одновременных) соединений в секунду на одной машине.  
