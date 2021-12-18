@@ -34,6 +34,7 @@ https://developer.mozilla.org/en-US/docs/Web/HTTP/Session
 https://ru.wikipedia.org/wiki/SHA-2  
 https://yandex.ru/search/?text=bitcoin.org%2Fbitcoin.pdf&lr=11115  
 https://www.networkstraining.com/peer-to-peer-vs-client-server-network/  
+
 ## Библиотеки
 https://www.boost.org/  
 https://www.openssl.org/  
@@ -43,6 +44,9 @@ https://github.com/gabime/spdlog
 https://github.com/seleznevae/libfort  
 https://github.com/nlohmann/json  
 https://habr.com/ru/post/595901/  
+
+# man
+https://man7.org/linux/man-pages/man7/epoll.7.html  
 
 # Проблема 10K и 10M
 Пропускная способность современных сетевых интерфейсов может обеспечивать 10M параллельных (одновременных) соединений в секунду на одной машине.  
