@@ -45,6 +45,10 @@ https://github.com/seleznevae/libfort
 https://github.com/nlohmann/json  
 https://habr.com/ru/post/595901/  
 
+## io_uring
+https://youtu.be/g42hzMplhkQ  
+https://gitlab.com/lockie/otus-io-uring  
+
 # man
 https://man7.org/linux/man-pages/man7/epoll.7.html  
 
