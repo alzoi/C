@@ -35,7 +35,7 @@ https://ru.wikipedia.org/wiki/SHA-2
 https://yandex.ru/search/?text=bitcoin.org%2Fbitcoin.pdf&lr=11115  
 https://www.networkstraining.com/peer-to-peer-vs-client-server-network/  
 
-## Библиотеки
+# Библиотеки
 https://www.boost.org/  
 https://www.openssl.org/  
 https://github.com/eidheim/Simple-WebSocket-Server  
@@ -45,7 +45,7 @@ https://github.com/seleznevae/libfort
 https://github.com/nlohmann/json  
 https://habr.com/ru/post/595901/  
 
-## io_uring
+# io_uring
 https://youtu.be/g42hzMplhkQ  
 https://gitlab.com/lockie/otus-io-uring  
 
