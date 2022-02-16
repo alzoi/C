@@ -61,6 +61,7 @@ http://nxweb.org/ru/
 https://www.cpp-vs.com/versus/go-simple-web-server  
 [разработка модулей nginx](https://www.evanmiller.org/nginx-modules-guide.html)  
 https://github.com/mibamur/nginx-modules-guide/blob/master/small-dev-nginx-modules-guide-RU.md  
+https://github.com/tdv/libevent_test_http_srv  
 
 ## BackEnd стек:
 1) языки:
