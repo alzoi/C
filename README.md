@@ -64,6 +64,8 @@ https://www.cpp-vs.com/versus/go-simple-web-server
 [разработка модулей nginx](https://www.evanmiller.org/nginx-modules-guide.html)  
 https://github.com/mibamur/nginx-modules-guide/blob/master/small-dev-nginx-modules-guide-RU.md  
 https://github.com/tdv/libevent_test_http_srv  
+[c++ Web Server Mongoose](https://www.youtube.com/watch?v=PbrLxCO9Gk8&t=278s)  
+[Simple REST API in C++ mongocxx](https://www.youtube.com/watch?v=NC7IGLm69Ts&list=PLrkXkAVRoig2fScCYqfdIp1PQ-WMsVbQc&index=38&t=109s)
 
 ## BackEnd стек:
 1) языки:
