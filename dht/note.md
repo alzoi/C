@@ -19,10 +19,11 @@ https://www.youtube.com/watch?v=VfbRhSrJ4qA
 # MIT
 https://ocw.mit.edu/  
 
-# upd hole
+# upd hole и STUN
 https://www.youtube.com/watch?v=TiMeoQt3K4g  
 https://habr.com/ru/post/652907/  
 https://www.jordanwhited.com/posts/wireguard-endpoint-discovery-nat-traversal/  
+https://www.codeproject.com/Articles/23481/Stunner-A-STUN-Library-and-Client  
 ```
 Узнать внешний ip своей машины
 curl ipecho.net/plain && echo
