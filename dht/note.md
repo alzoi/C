@@ -24,6 +24,7 @@ https://www.youtube.com/watch?v=TiMeoQt3K4g
 https://habr.com/ru/post/652907/  
 https://www.jordanwhited.com/posts/wireguard-endpoint-discovery-nat-traversal/  
 https://www.codeproject.com/Articles/23481/Stunner-A-STUN-Library-and-Client  
+https://github.com/NeverPlayLegit/UDPHolepunching-CPP  
 ```
 Узнать внешний ip своей машины
 curl ipecho.net/plain && echo
