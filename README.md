@@ -8,7 +8,7 @@
 |[https://proglib.io/p/open-source/](https://proglib.io/p/open-source/)|Как получить опыт и зарабатывать на Open Source проектах|
 |[https://benchmarksgame-team.pages.debian.net](https://benchmarksgame-team.pages.debian.net/benchmarksgame/performance/revcomp.html)|Производительность языков программирования |
 |[https://idea.popcount.org/epoll](https://idea.popcount.org/2017-02-20-epoll-is-fundamentally-broken-12/)|Мультиплексирование ввода/вывода|
-|[https://google.github.io/](https://google.github.io/styleguide/cppguide.html)|Стиль кодирования|
+|[https://google.github.io/](https://google.github.io/styleguide/cppguide.html)|Стиль кодирования C++|
 
 # Установка компилятора
 [MinGW-W64 GCC-8.1.0 i686-posix-dwarf](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/mingw-builds/8.1.0/threads-posix/dwarf/)  версия 8.1.0 позволяет корректно отображать значения stl контейнеров в режиме отладки в Visual Studio Code (вектора std::vector и т. д.)  
