@@ -22,6 +22,13 @@ add_executable(${OUT_NAME}
 target_link_libraries(${OUT_NAME}
     pthread
 )
+
+# Печать списка переменных cmake
+get_cmake_property(_variableNames VARIABLES)
+list (SORT _variableNames)
+foreach (_variableName ${_variableNames})
+    message(STATUS "${_variableName}=${${_variableName}}")
+endforeach()
 ```
 
 Команды сборки
