@@ -2,15 +2,25 @@
 
 Файл CMakeLists.txt
 ```
-cmake_minimum_required(VERSION 3.22)
-project(my_prj)
+cmake_minimum_required(VERSION 3.18)
 
+# Имя исполняемого файла и проекта.
+set(OUT_NAME "a.out")
+set(PRJ_NAME my_prj)
+
+# Стандарт c++
 set(CMAKE_CXX_STANDARD 20)
 
+project(${PRJ_NAME})
+
 # Создать исполняемый файл a.out из списка исходников
-add_executable(a.out
-  main.cpp
-  foo.cpp
+add_executable(${OUT_NAME}
+    main.cpp
+)
+
+# Линковать исполняемый файл приложения со следующими библиотеками
+target_link_libraries(${OUT_NAME}
+    pthread
 )
 ```
 
