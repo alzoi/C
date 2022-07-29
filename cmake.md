@@ -20,7 +20,7 @@ add_executable(${OUT_NAME}
 
 # Линковать исполняемый файл приложения со следующими библиотеками
 target_link_libraries(${OUT_NAME}
-    pthread
+    -pthread
 )
 
 #find_package(Threads REQUIRED)
