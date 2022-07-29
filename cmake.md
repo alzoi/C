@@ -7,7 +7,8 @@ project(my_prj)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(my_prj
+# Создать исполняемый файл a.out из списка исходников
+add_executable(a.out
   main.cpp
   foo.cpp
 )
