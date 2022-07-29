@@ -7,7 +7,10 @@ project(my_prj)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(my_prj main.cpp)
+add_executable(my_prj
+  main.cpp
+  foo.cpp
+)
 ```
 
 Команды сборки
