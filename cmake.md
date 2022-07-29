@@ -23,6 +23,9 @@ target_link_libraries(${OUT_NAME}
     pthread
 )
 
+#find_package(Threads REQUIRED)
+#target_link_libraries(${OUT_NAME} PRIVATE Threads::Threads)
+
 # Печать списка переменных cmake
 get_cmake_property(_variableNames VARIABLES)
 list (SORT _variableNames)
