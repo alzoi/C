@@ -41,3 +41,11 @@ cd ./bin/
 cmake ../
 cmake --build .
 ```
+или
+```
+mkdir bin
+cd ./bin/
+cmake ../
+make
+```
+
