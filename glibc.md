@@ -14,3 +14,10 @@ https://gcc.gnu.org/onlinedocs/gcc-4.9.4/libstdc++/manual/manual/using_headers.h
 ```
 g++ -Winvalid-pch -x c++-header -std=c++17 -pthread ./include/all_hed.h
 ```
+Должен появиться файл ./include/all_hed.h.gch  
+Компилируем программу, указывая в качестве предварительно скомпилированного заголовка имя файл all_hed.h и папку, в которой был размещён скомпилированный заголовок
+```
+g++ -Winvalid-pch -H -x c++-header -std=c++17 -pthread .main.cpp
+```
+Если скомпилированный заголовок изпользован, должно быть выведена строка с восклицательным знаком
+! ./include/all_hed.h.gch
