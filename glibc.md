@@ -20,4 +20,6 @@ g++ -Winvalid-pch -x c++-header -std=c++17 -pthread ./include/all_hed.h
 g++ -Winvalid-pch -H -x c++-header -std=c++17 -pthread .main.cpp
 ```
 Если скомпилированный заголовок изпользован, должно быть выведена строка с восклицательным знаком
+```
 ! ./include/all_hed.h.gch
+```
