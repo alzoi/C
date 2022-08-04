@@ -26,7 +26,7 @@ g++ -Winvalid-pch -H -x c++-header -std=c++17 -pthread -I ./include -include all
 
 # Опции GCC
 ## -stdlib
-Для компилятора g++ можно зававать опцию -stdlib, предусмотрены значения:  
+Для компилятора g++ можно зававать опцию [-stdlib](https://gcc.gnu.org/onlinedocs/gcc/C_002b_002b-Dialect-Options.html#index-stdlib), предусмотрены значения:  
  Опция                | Описание
  -------------------- | ----------
  -stdlib=libstdc++    | по умолчанию собственная среда выполнения С++ для g++
