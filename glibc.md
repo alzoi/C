@@ -33,6 +33,7 @@ g++ -Winvalid-pch -H -x c++-header -std=c++17 -pthread -I ./include -include all
  -stdlib=libc++       | среда выполнения С++, установленную в некоторых операционных системах
 
 # Расположение библиотек
+https://www.youtube.com/watch?v=O2fhM_uKZ6k  
 Для сборщика **ld** создаются скрипты для указания версий используемых библиотек.
 Так в файле **/lib/x86_64-linux-gnu/libc.so** описан следующий скрипт:
 ```
