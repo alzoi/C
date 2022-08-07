@@ -32,3 +32,16 @@ g++ -Winvalid-pch -H -x c++-header -std=c++17 -pthread -I ./include -include all
  -stdlib=libstdc++    | по умолчанию собственная среда выполнения С++ для g++
  -stdlib=libc++       | среда выполнения С++, установленную в некоторых операционных системах
 
+# Расположение библиотек
+Для сборщика **ld** создаются скрипты для указания версий используемых библиотек.
+Так в файле /lib/x86_64-linux-gnu/libc.so описан следующий скрипт:
+```
+OUTPUT_FORMAT(elf64-x86-64)
+GROUP ( /lib/x86_64-linux-gnu/libc.so.6 /usr/lib/x86_64-linux-gnu/libc_nonshared.a  AS_NEEDED ( /lib64/ld-linux-x86-64.so.2 ) )
+```
+Который подсказывает компилятору, что при сборке исполняемых программ их необходимо компоновать с библиотекой **/lib/x86_64-linux-gnu/libc.so.6**
+Если посмотреть, что это за файл, то увидим, что это символьная ссылка на файл **/lib/x86_64-linux-gnu/libc-2.31.so** с объектным кодом динамически компонуемой библиотекой GNU LibC версии 2.31
+```
+file /lib/x86_64-linux-gnu/libc.so.6
+lib/x86_64-linux-gnu/libc.so.6: symbolic link to libc-2.31.so
+```
