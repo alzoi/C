@@ -1,5 +1,8 @@
 # Makefile
-
+Посмотреть базу знаний программы make
+```
+make -p
+```
 ## Ссылки
 https://habr.com/ru/post/155201/  
 [Makefile. Компиляция нескольких файлов с исходным кодом](https://www.youtube.com/watch?v=9PeEYcYHHkM)  
