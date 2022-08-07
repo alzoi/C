@@ -48,3 +48,11 @@ GROUP ( /lib/x86_64-linux-gnu/libc.so.6 ... )
 file /lib/x86_64-linux-gnu/libc.so.6
 lib/x86_64-linux-gnu/libc.so.6: symbolic link to libc-2.31.so
 ```
+Узнать перечень библиотек, которые использует программа можно с помощью утилиты ldd
+```
+which ls
+ldd /usr/bin/ls
+...
+ libc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007fe624528000)
+...
+```
