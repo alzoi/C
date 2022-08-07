@@ -6,6 +6,7 @@ https://habr.com/ru/post/155201/
 https://www.youtube.com/watch?v=P18_wphhrQ4  
 
 ## Примеры сборки
+### Пример 1
 ```
 CC=g++
 CFLAGS=-c -Wall
@@ -21,4 +22,10 @@ $(EXECUTABLE): $(OBJECTS)
 
 .cpp.o:
 	$(CC) $(CFLAGS) $< -o $@
+```
+### Пример 2
+$< - всё, что справа от символа двоеточия.  
+$@ - всё, что слева от символа двоеточия.
+```
+
 ```
