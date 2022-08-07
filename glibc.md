@@ -37,7 +37,7 @@ g++ -Winvalid-pch -H -x c++-header -std=c++17 -pthread -I ./include -include all
 Так в файле /lib/x86_64-linux-gnu/libc.so описан следующий скрипт:
 ```
 OUTPUT_FORMAT(elf64-x86-64)
-GROUP ( /lib/x86_64-linux-gnu/libc.so.6 /usr/lib/x86_64-linux-gnu/libc_nonshared.a  AS_NEEDED ( /lib64/ld-linux-x86-64.so.2 ) )
+GROUP ( /lib/x86_64-linux-gnu/libc.so.6 ... )
 ```
 Который подсказывает компилятору, что при сборке исполняемых программ их необходимо компоновать с библиотекой  
 **/lib/x86_64-linux-gnu/libc.so.6**  
