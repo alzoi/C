@@ -43,7 +43,7 @@ $(TARGET) : $(OBJ)
 $(PREF_OBJ)%.o : $(PREF_SRC)%.c
 	$(CC) -c $< -o $@
 
-clean :
+clean:
 	rm $(TARGET) *.o
 ```
 Расшифровка:
