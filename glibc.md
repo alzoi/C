@@ -34,7 +34,7 @@ g++ -Winvalid-pch -H -x c++-header -std=c++17 -pthread -I ./include -include all
 
 # Расположение библиотек
 Для сборщика **ld** создаются скрипты для указания версий используемых библиотек.
-Так в файле /lib/x86_64-linux-gnu/libc.so описан следующий скрипт:
+Так в файле **/lib/x86_64-linux-gnu/libc.so** описан следующий скрипт:
 ```
 OUTPUT_FORMAT(elf64-x86-64)
 GROUP ( /lib/x86_64-linux-gnu/libc.so.6 ... )
