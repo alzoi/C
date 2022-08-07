@@ -46,7 +46,7 @@ GROUP ( /lib/x86_64-linux-gnu/libc.so.6 ... )
 с объектным кодом динамически компонуемой библиотекой GNU LibC версии 2.31.
 ```
 file /lib/x86_64-linux-gnu/libc.so.6
-lib/x86_64-linux-gnu/libc.so.6: symbolic link to libc-2.31.so
+  /lib/x86_64-linux-gnu/libc.so.6: symbolic link to libc-2.31.so
 ```
 Узнать перечень библиотек, которые использует программа можно с помощью утилиты ldd
 ```
