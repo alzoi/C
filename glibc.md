@@ -58,3 +58,7 @@ ldd /usr/bin/ls
 ...
 ```
 Утилита ldconfig исполняет скрипты, описывающие библиотеки и создаёт символьные ссылки на файлы конкрутных версий библиотек.
+
+## Загрузка библиотек во время работы программы
+https://www.youtube.com/watch?v=_kIa4D7kQ8I  
+https://www.youtube.com/watch?v=KQRAiP6FSxU&t=1715s  
