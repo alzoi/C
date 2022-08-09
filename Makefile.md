@@ -10,7 +10,7 @@ https://www.youtube.com/watch?v=P18_wphhrQ4
 
 ## Примеры сборки
 ### Пример 1
-```
+```make
 CC=g++
 CFLAGS=-c -Wall
 LDFLAGS=
@@ -27,7 +27,7 @@ $(EXECUTABLE): $(OBJECTS)
 	$(CC) $(CFLAGS) $< -o $@
 ```
 ### Пример 2
-```
+```make
 TARGET = MyProject
 CC = gcc
 
