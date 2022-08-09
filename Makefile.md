@@ -7,6 +7,7 @@ make -p
 https://habr.com/ru/post/155201/  
 [Makefile. Компиляция нескольких файлов с исходным кодом](https://www.youtube.com/watch?v=9PeEYcYHHkM)  
 https://www.youtube.com/watch?v=P18_wphhrQ4  
+https://www.youtube.com/watch?v=2uGo7-M34M8  
 
 ## Примеры сборки
 ### Пример 1
