@@ -35,7 +35,7 @@ g++ -Winvalid-pch -H -x c++-header -std=c++17 -pthread -I ./include -include all
 ## -fsanitize [gcc.gnu.org/onlinedocs](https://gcc.gnu.org/onlinedocs/gcc/Instrumentation-Options.html)
  Опция                | Описание
  -------------------- | ----------
- -fsanitize=address   | Включите AddressSanitizer, быстрый детектор ошибок памяти. Инструкции по доступу к памяти приспособлены для обнаружения ошибок выхода за пределы и использования после освобождения.
+ -fsanitize=address           | Включите AddressSanitizer, быстрый детектор ошибок памяти. Инструкции по доступу к памяти приспособлены для обнаружения ошибок выхода за пределы и использования после освобождения.
 -fsanitize=thread     | Включите ThreadSanitizer, быстрый детектор гонки данных. Инструкции по доступу к памяти приспособлены для обнаружения ошибок гонки данных (data race).
 
 # Расположение библиотек
