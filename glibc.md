@@ -1,6 +1,6 @@
 # GNU LibC
 
-## Просмотр исходного кода libc
+## Просмотр исходного кода glibc
 https://elixir.bootlin.com/glibc/latest/source
 
 ## Документация
