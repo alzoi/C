@@ -1,5 +1,8 @@
 # GNU LibC
 
+## Просмотр исходного кода libc
+https://elixir.bootlin.com/glibc/latest/source
+
 ## Документация
 https://www.gnu.org/software/libc/manual/html_node/index.html  
 
