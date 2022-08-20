@@ -3,6 +3,7 @@
 ## Справочник
 https://en.cppreference.com/w/c/language
 
+## Указатель по файлам
 | Файл | Описание |
 |:----:|----------|
 |[pointer.cpp](https://github.com/alzoi/C/blob/master/pointer.cpp)| Пример передачи данных в функцию по указателю (*) и по указателю на указатель (**) |
