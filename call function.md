@@ -10,6 +10,11 @@ http://www.ucw.cz/~hubicka/papers/abi/
 ```
 gcc -S -fno-asynchronous-unwind-tables -masm=intel -fverbose-asm main.c
 ```
+Или просмотр ассемблерного кода 
+```
+gcc main.c
+objdump -d -j .text -M intel a.out
+```
 
 ## Теория
 https://www.cs.cmu.edu/~213/lectures/07-machine-procedures.pdf  
