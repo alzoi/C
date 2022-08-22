@@ -65,3 +65,41 @@ main:
   popq %rbp
   ret
 ```
+Создаём массив из 16-ти элементов:
+```си
+void func1(void)
+{
+    long a[16];
+    a[0] = 5;
+    a[1] = 4;
+    a[2] = 3;
+    a[15] = 2;
+}
+
+int main(void)
+{
+    func1();
+    return (0);
+}
+```
+
+```asm
+func1:
+  pushq %rbp
+  movq %rsp, %rbp
+  subq $8, %rsp
+  movq $5, -128(%rbp)
+  movq $4, -120(%rbp)
+  movq $3, -112(%rbp)
+  movq $2, -8(%rbp)
+  nop
+  leave
+  ret
+main:
+  pushq %rbp
+  movq %rsp, %rbp
+  call func1
+  movl $0, %eax
+  popq %rbp
+  ret
+```
