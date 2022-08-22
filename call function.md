@@ -19,6 +19,5 @@ objdump -d -j .text -M intel a.out
 ## Теория
 https://www.cs.cmu.edu/~213/lectures/07-machine-procedures.pdf  
 https://cs.brown.edu/courses/csci1310/2020/notes/l08.html  
+https://blog.holbertonschool.com/hack-virtual-memory-stack-registers-assembly-code/  
 ![image](https://user-images.githubusercontent.com/20499566/185850704-b14682a5-8a91-4851-8c6b-2f914a7571ec.png)
-
-
