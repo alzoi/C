@@ -6,9 +6,9 @@ http://www.ucw.cz/~hubicka/papers/abi/
 [System V Application Binary Interface](https://webcache.googleusercontent.com/search?q=cache:Fc-8ml3p8QAJ:https://www.intel.com/content/dam/develop/external/us/en/documents/mpx-linux64-abi.pdf&cd=2&hl=ru&ct=clnk&gl=ru)  
 
 ## Компиляция
-Для компиляции в ассемблерный код синтаксиса Intel с удалением лишних меток:
+Для компиляции в ассемблерный код синтаксиса Intel с удалением лишних меток и печатью всех опций ассемблера:
 ```
-gcc -S -fno-asynchronous-unwind-tables -masm=intel main.c
+gcc -S -fno-asynchronous-unwind-tables -masm=intel -fverbose-asm main.c
 ```
 
 ## Теория
