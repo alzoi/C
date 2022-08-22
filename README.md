@@ -39,6 +39,7 @@ https://teccxx.neocities.org/mx1/
 ## Факультет компьютерных наук
 [tildesites.bowdoin.edu/~sbarker/teaching/courses/Основы компьютерных систем](https://tildesites.bowdoin.edu/~sbarker/teaching/courses/systems/18spring/schedule.php)
 https://www.cs.cmu.edu/afs/cs/academic/class/15213-s09/www/lectures/07-control-procedures.pdf  
+https://www.cs.cmu.edu/~213/lectures/07-machine-procedures.pdf  
 
 # Visual Studio Code
 [Цветовая тема Hop Light](https://marketplace.visualstudio.com/items?itemName=bubersson.theme-hop-light)  
