@@ -21,3 +21,41 @@ https://www.cs.cmu.edu/~213/lectures/07-machine-procedures.pdf
 https://cs.brown.edu/courses/csci1310/2020/notes/l08.html  
 https://blog.holbertonschool.com/hack-virtual-memory-stack-registers-assembly-code/  
 ![image](https://user-images.githubusercontent.com/20499566/185850704-b14682a5-8a91-4851-8c6b-2f914a7571ec.png)
+
+Изначально для фрейма функции выделяется 120 байт
+```c
+void func1(void)
+{
+    long a[14];
+    a[0] = 5;
+    a[1] = 4;
+    a[2] = 3;
+    a[13] = 2;
+}
+
+int main(void)
+{
+    func1();
+    return (0);
+}
+```
+
+```asm
+func1:
+  pushq %rbp
+  movq %rsp, %rbp
+  movq $5, -112(%rbp)
+  movq $4, -104(%rbp)
+  movq $3, -96(%rbp)
+  movq $2, -8(%rbp)
+  nop
+  popq %rbp
+  ret
+main:
+  pushq %rbp
+  movq %rsp, %rbp
+  call func1
+  movl $0, %eax
+  popq %rbp
+  ret
+```
