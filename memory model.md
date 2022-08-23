@@ -9,6 +9,8 @@ https://www.alibabacloud.com/blog/memory-model-and-synchronization-primitive---p
 ```asm volatile("" ::: "memory");```  
 Барьер процессора  
 ```asm volatile("mfence" ::: "memory");```  
+или  
+```std::atomic_thread_fence(std::memory_order_seq_cst);```
 
 # Spinlock
 https://en.wikipedia.org/wiki/Spinlock  
