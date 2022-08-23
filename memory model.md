@@ -32,18 +32,18 @@ int main(void) {
 }
 ```
 ```asm
-// memory_order_seq_cst
+# memory_order_seq_cst
 foo():
   movq $2, -8(%rsp)
   movl $8, %eax
-  xchgq -8(%rsp), %rax // Обмен значений в регистре rax и в ячейке памяти -8(rsp) за один такт процессора
+  xchgq -8(%rsp), %rax # Обмен значений в регистре rax и в ячейке памяти -8(rsp) за один такт процессора (атомарно, без переключений).
   movl $8, %eax
   ret
 main:
   xorl %eax, %eax
   ret
 
-// memory_order_release
+# memory_order_release
 foo():
   movq $2, -8(%rsp)
   movl $8, %eax
@@ -53,7 +53,7 @@ main:
   xorl %eax, %eax
   ret
 
-// memory_order_relaxed
+# memory_order_relaxed
 foo():
   movq $8, -8(%rsp)
   movl $8, %eax
