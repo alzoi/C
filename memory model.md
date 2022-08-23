@@ -15,6 +15,8 @@ https://en.wikipedia.org/wiki/Spinlock
 
 # Примеры генерации кода для разных порядков памяти
 ```c
+// gcc -S -O2 -std=c++20 main.cpp
+
 #include <atomic>
 
 std::atomic<long> test(38);
