@@ -117,7 +117,6 @@ long foo(void) {
         "=r"(c1)
         :
         :
-        "%eax"
     );
     return c1;
 }
