@@ -14,6 +14,7 @@ https://www.alibabacloud.com/blog/memory-model-and-synchronization-primitive---p
 https://en.wikipedia.org/wiki/Spinlock  
 
 # Примеры генерации кода для разных порядков памяти
+## Store
 ```c
 // gcc -S -O2 -std=c++20 main.cpp
 
