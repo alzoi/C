@@ -22,6 +22,8 @@ https://cs.brown.edu/courses/csci1310/2020/notes/l08.html
 https://blog.holbertonschool.com/hack-virtual-memory-stack-registers-assembly-code/  
 ![image](https://user-images.githubusercontent.com/20499566/185850704-b14682a5-8a91-4851-8c6b-2f914a7571ec.png)
 
+Адрес инструкции, которая будет выполнена после возврата из функции можно найти в стеке по адресу ```+0x8(%%rbp)```.
+
 Изначально для стека фрейма функции выделяется 128 байт. В стеке фрейма функции всегда находится сохранённое значение регистра ```rbp``` фрейма, вызвавшей функции. По адресу ```0x0(%rbp)``` получим значение регистра rbp предыдущей функции:
 ```c
 void func1(void)
