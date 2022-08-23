@@ -64,3 +64,43 @@ main:
 test:
     .quad   38
 ```
+## Load
+```c
+#include <atomic>
+
+std::atomic<long> test(38);
+long a;
+
+void LoadSeqCst(void) {
+    a = test.load(std::memory_order_seq_cst);
+}
+
+void LoadAcquire(void) {
+    a = test.load(std::memory_order_acquire);
+}
+
+void LoadRelaxed(void) {
+    a = test.load(std::memory_order_relaxed);
+}
+```
+```asm
+LoadSeqCst():
+        movq    test(%rip), %rax
+        movq    %rax, a(%rip)
+        ret
+LoadAcquire():
+        movq    test(%rip), %rax
+        movq    %rax, a(%rip)
+        ret
+LoadRelaxed():
+        movq    test(%rip), %rax
+        movq    %rax, a(%rip)
+        ret
+main:
+        xorl    %eax, %eax
+        ret
+a:
+        .zero   8
+test:
+        .quad   38
+```
