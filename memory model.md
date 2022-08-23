@@ -17,15 +17,20 @@ https://en.wikipedia.org/wiki/Spinlock
 ```c
 #include <atomic>
 
-long foo(void) {
+std::atomic<long> test(38);
 
-    long x = 8;
-    std::atomic<long> bar (2);
-    
-    bar.store(x, std::memory_order_seq_cst);
-
-    return x;
+void SeqCst(void) {
+    test.store(52, std::memory_order_seq_cst);
 }
+
+void Release(void) {
+    test.store(17, std::memory_order_release);
+}
+
+void Relaxed(void) {
+    test.store(9, std::memory_order_relaxed);
+}
+
 int main(void) {
 
     return 0;
@@ -33,33 +38,25 @@ int main(void) {
 ```
 ```asm
 # memory_order_seq_cst
-foo():
-  movq $2, -8(%rsp)
-  movl $8, %eax
-  # Обмен значений в регистре rax и в ячейке памяти -8(rsp) за один такт процессора (атомарно, без переключений).
-  xchgq -8(%rsp), %rax
-  movl $8, %eax
-  ret
-main:
-  xorl %eax, %eax
-  ret
+SeqCst():
+    movl    $52, %eax
+    # Обмен значений в регистре rax и в ячейке памяти -8(rsp) за один такт процессора (атомарно, без переключений).
+    xchgq   %rax, test(%rip)
+    retq
 
 # memory_order_release
-foo():
-  movq $2, -8(%rsp)
-  movl $8, %eax
-  movq $8, -8(%rsp)
-  ret
-main:
-  xorl %eax, %eax
-  ret
+Release():
+    movq    $17, test(%rip)
+    retq
 
 # memory_order_relaxed
-foo():
-  movq $8, -8(%rsp)
-  movl $8, %eax
-  ret
+Relaxed():
+    movq    $9, test(%rip)
+    retq
+
 main:
-  xorl %eax, %eax
-  ret
+    xorl    %eax, %eax
+    retq
+test:
+    .quad   38
 ```
