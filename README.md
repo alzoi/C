@@ -1,7 +1,8 @@
 # C/С++
 
 ## Справочник
-https://en.cppreference.com/w/c/language
+https://en.cppreference.com/w/c/language  
+https://gcc.gnu.org/wiki/  
 
 ## Указатель по файлам
 | Файл | Описание |
