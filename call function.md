@@ -103,3 +103,6 @@ main:
   popq %rbp
   ret
 ```
+Ассемблерные вставки в компиляторе gcc
+[Ассемблерная вставка в Си](https://ru.stackoverflow.com/questions/829868/%D0%90%D1%81%D1%81%D0%B5%D0%BC%D0%B1%D0%BB%D0%B5%D1%80%D0%BD%D0%B0%D1%8F-%D0%B2%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B0-%D0%B2-%D0%A1%D0%B8)  
+http://asmcourse.cs.msu.ru/wp-content/uploads/2013/04/gcc-inline-asm.pdf  
