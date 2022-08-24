@@ -3,6 +3,8 @@
 ## Ссылки
 https://www.alibabacloud.com/blog/memory-model-and-synchronization-primitive---part-1-memory-barrier_597460  
 [Модель памяти в языке Си](https://gcc.gnu.org/onlinedocs/gcc/_005f_005fatomic-Builtins.html#_005f_005fatomic-Builtins)  
+https://stackoverflow.com/questions/49107683/why-does-a-stdatomic-store-with-sequential-consistency-use-xchg  
+https://preshing.com/20120913/acquire-and-release-semantics/  
 
 # Барьер памяти для x86
 Барьер компилятора  
