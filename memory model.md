@@ -5,6 +5,7 @@ https://www.alibabacloud.com/blog/memory-model-and-synchronization-primitive---p
 [Модель памяти в языке Си](https://gcc.gnu.org/onlinedocs/gcc/_005f_005fatomic-Builtins.html#_005f_005fatomic-Builtins)  
 https://stackoverflow.com/questions/49107683/why-does-a-stdatomic-store-with-sequential-consistency-use-xchg  
 https://preshing.com/20120913/acquire-and-release-semantics/  
+https://stackoverflow.com/questions/6935442/x86-spinlock-using-cmpxchg  
 
 # Барьер памяти для x86
 Барьер компилятора  
