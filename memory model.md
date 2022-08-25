@@ -17,6 +17,7 @@ https://stackoverflow.com/questions/6935442/x86-spinlock-using-cmpxchg
 
 # Spinlock
 https://en.wikipedia.org/wiki/Spinlock  
+https://www.youtube.com/watch?v=yB8sm-pwvZo  
 
 # Примеры генерации кода для разных порядков памяти
 Архитектура CPU x86-64
