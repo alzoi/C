@@ -29,7 +29,6 @@ int main(void) {
 
     return x;
 }
-```
 Сгенерированный на x86_64 ассемблерный код
 ```asm
 AtomicLoad(long*):
