@@ -19,7 +19,7 @@ https://www.youtube.com/watch?v=yB8sm-pwvZo&t=222s
 
 ## Схема Spinlock
 ![image](https://user-images.githubusercontent.com/20499566/187440519-942faef3-72be-4b49-b16b-5ccf95dfc6c3.png)
-
+В данной схеме в процедуре acquire поток постоянно выполняет использует процессор для чтения значения из ячейки памяти.
 
 ## Примеры
 ### Устройство Atomic переменных
