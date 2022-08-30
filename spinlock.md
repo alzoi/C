@@ -1,5 +1,9 @@
 # Spinlock  
 
+## Ссылки
+https://www.youtube.com/watch?v=yB8sm-pwvZo&t=222s  
+
+## Примеры
 ```c
 #include <atomic>
 
@@ -20,6 +24,12 @@ void StoreRelease(void) {
 
 void StoreSC(void) {
     test.store(17);
+}
+
+long AtomicExchange(long* cell, long new_value) {
+    long tmp = *cell;
+    *cell = new_value;
+    return tmp;
 }
 
 int main(void) {
@@ -46,6 +56,12 @@ StoreSC():
   movl $17, %eax
   xchgq test(%rip), %rax
   ret
+
+AtomicExchange(): # Реализовано вручную.
+  movq %rsi, %rax
+  xchgq (%rdi), %rax
+  ret
+    
 main:
   movq $9, atm(%rip)
   movl $9, %eax
