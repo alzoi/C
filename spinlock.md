@@ -74,3 +74,32 @@ test:
 atm:
   .quad 7
 ```
+Попытка установить блокировку, если удалось установить блокирову, то получаем true
+```c
+#include <atomic>
+
+std::atomic<long> locked_(0);
+
+bool TryLock() {
+    // Пытаемся установить блокировку.
+    return locked_.exchange(1) == 0 ? true : false;
+}
+
+int main(){
+    return 0;
+}
+```
+Сгенерированный для x86_64 ассемблерный код (с флагом компиляции -O2)
+```asm
+TryLock():
+  movl $1, %eax
+  xchgq locked_(%rip), %rax
+  testq %rax, %rax
+  sete %al
+  ret
+main:
+  xorl %eax, %eax
+  ret
+locked_:
+  .zero 8
+```
