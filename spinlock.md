@@ -15,9 +15,9 @@ https://www.youtube.com/watch?v=yB8sm-pwvZo&t=222s
 
 Защита достигается с помощью примитивов синхронизации:
 
-* spinlock
-* mutex
-* semaphore
+*   spinlock
+*   mutex
+*   semaphore
 
 ## Примеры
 ### Устройство Atomic переменных
