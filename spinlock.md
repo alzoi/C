@@ -4,6 +4,7 @@
 https://www.youtube.com/watch?v=yB8sm-pwvZo&t=222s  
 
 ## Примеры
+### Устройство Atomic переменных
 ```c
 #include <atomic>
 
@@ -75,6 +76,7 @@ test:
 atm:
   .quad 7
 ```
+### TryLock
 Попытка установить блокировку, если удалось установить блокирову, то получаем true
 ```c
 #include <atomic>
