@@ -17,6 +17,9 @@ https://www.youtube.com/watch?v=yB8sm-pwvZo&t=222s
 * mutex
 * semaphore
 
+## Схема Spinlock
+![image](https://user-images.githubusercontent.com/20499566/187429373-6b2e30e4-810d-4764-8ef8-f02d1906c6da.png)
+
 ## Примеры
 ### Устройство Atomic переменных
 https://en.cppreference.com/w/cpp/atomic/atomic  
