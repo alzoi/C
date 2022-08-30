@@ -1,4 +1,5 @@
-# Spinlock
+# Spinlock  
+
 ```c
 #include <atomic>
 
