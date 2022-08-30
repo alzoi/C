@@ -20,7 +20,7 @@ objdump -d -j .text -M intel a.out
 https://www.cs.cmu.edu/~213/lectures/07-machine-procedures.pdf  
 https://cs.brown.edu/courses/csci1310/2020/notes/l08.html  
 https://blog.holbertonschool.com/hack-virtual-memory-stack-registers-assembly-code/  
-![image](https://user-images.githubusercontent.com/20499566/187379462-14e20c94-f124-4f20-9547-24ed45a5828b.png)
+![image](https://user-images.githubusercontent.com/20499566/187384131-082b3e8f-063a-45b1-8d01-42c7e419c9fa.png)
 
 Адрес инструкции, которая будет выполнена после возврата из функции можно найти в стеке по адресу **```+0x8(%rbp)```**.  
 В вызываемую функцию ```(callee)``` вызывающая функция ```(caller)``` может передать шесть аргументов через следующие регистры процессора: ```rdi, rsi, rdx, rcx, r8, r9```.  
