@@ -20,9 +20,10 @@ objdump -d -j .text -M intel a.out
 https://www.cs.cmu.edu/~213/lectures/07-machine-procedures.pdf  
 https://cs.brown.edu/courses/csci1310/2020/notes/l08.html  
 https://blog.holbertonschool.com/hack-virtual-memory-stack-registers-assembly-code/  
-![image](https://user-images.githubusercontent.com/20499566/187378841-3482a5ff-7d21-4519-9bc9-55f2067e5a86.png)
+![image](https://user-images.githubusercontent.com/20499566/187379462-14e20c94-f124-4f20-9547-24ed45a5828b.png)
 
-Адрес инструкции, которая будет выполнена после возврата из функции можно найти в стеке по адресу **```+0x8(%rbp)```**.
+Адрес инструкции, которая будет выполнена после возврата из функции можно найти в стеке по адресу **```+0x8(%rbp)```**.  
+В вызываемую функцию вызывающая функция может передать через регистры (rdi, rsi, rdx, rcx, r8, r9) шесть аргументов.
 
 Изначально для стека фрейма функции выделяется 128 байт. В стеке фрейма функции всегда находится сохранённое значение регистра ```rbp``` фрейма, вызвавшей функции. По адресу ```0x0(%rbp) или просто (%rbp)``` получим значение регистра rbp предыдущей функции:
 ```c
