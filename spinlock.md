@@ -27,6 +27,8 @@ void StoreSC(void) {
 }
 
 long AtomicExchange(long* cell, long new_value) {
+// Обычная функция обмена выполняется за три не атомарных шага.
+// При переключении контекста потока значение общей ячейки памяти может меняться.
     long tmp = *cell;
     *cell = new_value;
     return tmp;
@@ -57,7 +59,8 @@ StoreSC():
   xchgq test(%rip), %rax
   ret
 
-AtomicExchange(): # Реализовано вручную.
+AtomicExchange():
+# Атомарную функцию обмена значений между ячейкой и регистром можно реализовать только руками на языке ассемблер.
   movq %rsi, %rax
   xchgq (%rdi), %rax
   ret
