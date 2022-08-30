@@ -3,6 +3,7 @@
 ## Ссылки
 https://www.youtube.com/watch?v=yB8sm-pwvZo&t=222s  
 https://github.com/ctdk/xv6/blob/master/spinlock.c  
+https://github.com/mit-pdos/xv6-riscv/blob/riscv/kernel/spinlock.c  
 
 ## Теория
 Алгоритм взаимной блокировки потоков, в котором инструкции работают не атомарно, и поэтому два потока могут получить доступ к критической секции одновременно.
