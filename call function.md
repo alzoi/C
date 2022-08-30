@@ -20,7 +20,7 @@ objdump -d -j .text -M intel a.out
 https://www.cs.cmu.edu/~213/lectures/07-machine-procedures.pdf  
 https://cs.brown.edu/courses/csci1310/2020/notes/l08.html  
 https://blog.holbertonschool.com/hack-virtual-memory-stack-registers-assembly-code/  
-![image](https://user-images.githubusercontent.com/20499566/186158255-3c100aef-d7f6-4243-9206-ffe4445d75b3.png)
+![image](https://user-images.githubusercontent.com/20499566/187378841-3482a5ff-7d21-4519-9bc9-55f2067e5a86.png)
 
 Адрес инструкции, которая будет выполнена после возврата из функции можно найти в стеке по адресу **```+0x8(%rbp)```**.
 
