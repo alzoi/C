@@ -18,7 +18,8 @@ https://www.youtube.com/watch?v=yB8sm-pwvZo&t=222s
 * semaphore
 
 ## Схема Spinlock
-![image](https://user-images.githubusercontent.com/20499566/187438514-8f23e8ed-9363-40da-838a-268cd396b812.png)
+![image](https://user-images.githubusercontent.com/20499566/187440519-942faef3-72be-4b49-b16b-5ccf95dfc6c3.png)
+
 
 ## Примеры
 ### Устройство Atomic переменных
