@@ -5,6 +5,7 @@ https://www.youtube.com/watch?v=yB8sm-pwvZo&t=222s
 
 ## Примеры
 ### Устройство Atomic переменных
+https://en.cppreference.com/w/cpp/atomic/atomic  
 ```c
 #include <atomic>
 
@@ -77,7 +78,8 @@ atm:
   .quad 7
 ```
 ### TryLock
-Попытка установить блокировку, если удалось установить блокирову, то получаем true
+Функция TryLock пытается установить блокировку, если блокирову установлена, то возвращает true, иначе false
+https://en.cppreference.com/w/cpp/thread/try_lock  
 ```c
 #include <atomic>
 
