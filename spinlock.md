@@ -31,7 +31,9 @@ https://github.com/mit-pdos/xv6-riscv/blob/riscv/kernel/spinlock.c
 ![image](https://user-images.githubusercontent.com/20499566/187605258-a0b75dee-20b8-47e7-bd12-b82a6f7c5ced.png)
 Spinlock, который постоянно крутится на процессоре можно использовать если известно, что критическая секция кода работает очень быстро. Spinlock обычно используют для увеличения счётчиков.
 ## pause
+[Инструкция pause](https://c9x.me/x86/html/file_module_x86_id_232.html)
 ![image](https://user-images.githubusercontent.com/20499566/187611312-32e7f001-7fec-4e33-9e93-a76939cd7eb8.png)  
+[Функция yield](https://en.cppreference.com/w/cpp/thread/yield)
 ![image](https://user-images.githubusercontent.com/20499566/187611513-a86e73f6-f82e-4fdc-844a-f35d5c9db10b.png)
 
 ## Примеры
