@@ -147,7 +147,6 @@ bar(): y=2; r2=x
   movl %eax, r2(%rip)
   ret
 
-
 # Вариант с std::memory_order_seq_cst
 foo(): x=1; r1=y;
   movl $1, %eax
