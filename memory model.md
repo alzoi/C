@@ -111,3 +111,64 @@ a:
 test:
         .quad   38
 ```
+## Запись и чтение
+```cpp
+#include <atomic>
+
+std::atomic<long> x(0);
+std::atomic<long> y(0);
+
+int r1 = 0;
+int r2 = 0;
+
+long a;
+void foo( ){
+    x.store(1, std::memory_order_release);
+    r1 = y.load(std::memory_order_acquire);
+}
+
+void bar() {
+    y.store(2, std::memory_order_release);
+    r2 = x.load(std::memory_order_acquire);
+}
+```
+Код -O2
+```asm
+# Вариант с std::memory_order_release и std::memory_order_acquire
+foo(): x=1; r1=y;
+  movq $1, x(%rip)
+  movq y(%rip), %rax
+  movl %eax, r1(%rip)
+  ret
+
+bar(): y=2; r2=x
+  movq $2, y(%rip)
+  movq x(%rip), %rax
+  movl %eax, r2(%rip)
+  ret
+
+
+# Вариант с std::memory_order_seq_cst
+foo(): x=1; r1=y;
+  movl $1, %eax
+  xchgq x(%rip), %rax
+  movq y(%rip), %rax
+  movl %eax, r1(%rip)
+  ret
+
+bar(): y=2; r2=x
+  movl $2, %eax
+  xchgq y(%rip), %rax
+  movq x(%rip), %rax
+  movl %eax, r2(%rip)
+  ret
+
+r2:
+  .zero 4
+r1:
+  .zero 4
+y:
+  .zero 8
+x:
+  .zero 8
+```
