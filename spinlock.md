@@ -72,7 +72,7 @@ class SpinWait {
     asm volatile("pause\n" : : : "memory");
   }
 
-  // Если крутимся достаточно долго.
+  // Проверить, что крутимся достаточно долго.
   bool IsEnough() const {
     return iter_ > lc_YieldLimit;
   }
