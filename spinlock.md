@@ -166,8 +166,12 @@ https://en.cppreference.com/w/cpp/thread/try_lock
 std::atomic<long> locked_(0);
 
 bool TryLock() {
-    // Пытаемся установить блокировку.
-    return locked_.exchange(1) == 0 ? true : false;
+    if (locked_.load( ) == 1 ) {
+      return false;
+    } else {
+      // Пытаемся установить блокировку.
+      return locked_.exchange(1) == 0 ? true : false;
+    }
 }
 
 int main(){
