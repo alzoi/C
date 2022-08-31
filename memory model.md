@@ -111,7 +111,7 @@ a:
 test:
         .quad   38
 ```
-## Запись и чтение
+## Запись и чтение (Store and Load)
 ```cpp
 #include <atomic>
 
@@ -123,8 +123,8 @@ int r2 = 0;
 
 long a;
 void foo( ){
-    x.store(1, std::memory_order_release);
-    r1 = y.load(std::memory_order_acquire);
+    x.store(1, std::memory_order_release); // Запись в память
+    r1 = y.load(std::memory_order_acquire); // Чтение из памяти
 }
 
 void bar() {
