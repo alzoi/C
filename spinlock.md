@@ -166,7 +166,7 @@ https://en.cppreference.com/w/cpp/thread/try_lock
 std::atomic<long> locked_(0);
 
 bool TryLock() {
-    if (locked_.load( ) == 1 ) {
+    if (locked_.load(std::memory_order_acquire) == 1 ) {
       return false;
     } else {
       // Пытаемся установить блокировку.
