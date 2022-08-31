@@ -37,9 +37,9 @@ Spinlock, который постоянно крутится на процесс
 ![image](https://user-images.githubusercontent.com/20499566/187611513-a86e73f6-f82e-4fdc-844a-f35d5c9db10b.png)  
 На практике нужно сначала крутиться в цикле получения блокировки с использованием инструкции pause. Потом, адаптивно, через некоторое время вызывать функцию yield, уступая процессорное время другим потокам.
 ```c
-void acquire(int* locked) P
-  while(xchg(locked, 1) == 1) {
-    while(*locked == 1) {
+void acquire(int* locked) {
+  while (xchg(locked, 1) == 1) {
+    while (*locked == 1) {
       pause_and_yield( );
     }
   }
