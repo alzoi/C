@@ -35,7 +35,7 @@ Spinlock, который постоянно крутится на процесс
 ![image](https://user-images.githubusercontent.com/20499566/187611312-32e7f001-7fec-4e33-9e93-a76939cd7eb8.png)  
 [Функция yield](https://en.cppreference.com/w/cpp/thread/yield)  
 ![image](https://user-images.githubusercontent.com/20499566/187611513-a86e73f6-f82e-4fdc-844a-f35d5c9db10b.png)
-
+На практике нужно сначала крутиться в цикле получения блокировки с использованием инструкции pause. Потом, адаптивно, через некоторое время вызывать функцию yield, уступая процессорное время другим потокам.
 ## Примеры
 ### Устройство Atomic переменных
 https://en.cppreference.com/w/cpp/atomic/atomic  
