@@ -49,8 +49,9 @@ void acquire(int* locked) {
 }
 
 class SpinWait {
-  static const size_t lc_SpinLimit = 6;
-  static const size_t lc_YieldLimit = 10;
+  static const size_t
+    lc_SpinLimit  = 6,
+    lc_YieldLimit = 10;
 
  public:
   void Spin() {
