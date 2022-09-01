@@ -171,3 +171,38 @@ y:
 x:
   .zero 8
 ```
+# Операция xchg
+Инструкции метода std::exchange с порядком памяти std::memory_order_acquire идентичны инструкциям этого метода с порядком std::memory_order_seq_cst
+```cpp
+#include <atomic>
+
+std::atomic<long> lock(8);
+
+long change_acq( ){
+    return lock.exchange(1, std::memory_order_acquire);
+}
+
+long change_seq( ){
+    return lock.exchange(1, std::memory_order_seq_cst);
+}
+
+int main(void) {
+    return 0;
+}
+```
+asm с оптимизацией -O2
+```asm
+change_acq():
+  movl $1, %eax
+  xchgq lock(%rip), %rax
+  ret
+change_seq():
+  movl $1, %eax
+  xchgq lock(%rip), %rax
+  ret
+main:
+  xorl %eax, %eax
+  ret
+lock:
+  .quad 8
+```
