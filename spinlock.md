@@ -1,4 +1,4 @@
-# Spinlock  
+# Spinlock (Спин-блокировка)
 
 ## Ссылки
 https://www.youtube.com/watch?v=yB8sm-pwvZo&t=222s  
