@@ -7,7 +7,7 @@ https://github.com/mit-pdos/xv6-riscv/blob/riscv/kernel/spinlock.c
 [Пример spinlock на портале cppreference.com](https://en.cppreference.com/w/cpp/atomic/atomic_flag)  
 [О проблемах spinlock в пользовательском пространстве](https://www.realworldtech.com/forum/?threadid=189711&curpostid=189723)  
 [Реализация spinlock в ядре Linux](https://github.com/torvalds/linux/blob/master/kernel/locking/spinlock.c)  
-(Измерения spinlock)[https://probablydance.com/2019/12/30/measuring-mutexes-spinlocks-and-how-bad-the-linux-scheduler-really-is/]  
+[Измерения spinlock и mutex](https://probablydance.com/2019/12/30/measuring-mutexes-spinlocks-and-how-bad-the-linux-scheduler-really-is/)  
 
 ## Теория
 Алгоритм взаимной блокировки потоков, в котором инструкции работают не атомарно, и поэтому два потока могут получить доступ к критической секции одновременно.
