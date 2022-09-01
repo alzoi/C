@@ -5,6 +5,7 @@ https://www.youtube.com/watch?v=yB8sm-pwvZo&t=222s
 https://github.com/ctdk/xv6/blob/master/spinlock.c  
 https://github.com/mit-pdos/xv6-riscv/blob/riscv/kernel/spinlock.c  
 [Пример spinlock на портале cppreference.com](https://en.cppreference.com/w/cpp/atomic/atomic_flag)  
+[О проблемах spinlock в пользовательском пространстве](https://www.realworldtech.com/forum/?threadid=189711&curpostid=189723)  
 
 ## Теория
 Алгоритм взаимной блокировки потоков, в котором инструкции работают не атомарно, и поэтому два потока могут получить доступ к критической секции одновременно.
