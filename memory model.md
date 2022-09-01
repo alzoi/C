@@ -20,7 +20,7 @@ https://en.wikipedia.org/wiki/Spinlock
 https://www.youtube.com/watch?v=yB8sm-pwvZo  
 
 # Примеры генерации кода для разных порядков памяти
-Архитектура CPU x86-64
+Архитектура CPU x86_64
 ## Store
 ```c
 // gcc -S -O2 -std=c++20 main.cpp
