@@ -172,7 +172,7 @@ x:
   .zero 8
 ```
 # Операция xchg
-Инструкции метода std::exchange с порядком памяти std::memory_order_acquire идентичны инструкциям этого метода с порядком std::memory_order_seq_cst
+Инструкции метода std::exchange с [порядком памяти](https://en.cppreference.com/w/cpp/atomic/memory_order) std::memory_order_acquire идентичны инструкциям этого метода с порядком std::memory_order_seq_cst
 ```cpp
 #include <atomic>
 
