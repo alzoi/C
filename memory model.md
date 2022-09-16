@@ -21,7 +21,7 @@ https://habr.com/ru/post/546880/
 или  
 ```std::atomic_thread_fence(std::memory_order_seq_cst);```
 
-Полный барьер памяти на Си
+Полный барьер памяти в ядре Linux
 ```
 smp_mb( );
 ```
