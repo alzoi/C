@@ -8,6 +8,8 @@ https://preshing.com/20120913/acquire-and-release-semantics/
 https://stackoverflow.com/questions/6935442/x86-spinlock-using-cmpxchg  
 
 # Барьер памяти для x86
+https://www.kernel.org/doc/Documentation/memory-barriers.txt  
+https://habr.com/ru/post/155517/  
 https://man7.org/linux/man-pages/man2/membarrier.2.html  
 https://habr.com/ru/post/546880/  
 
