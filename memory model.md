@@ -8,12 +8,22 @@ https://preshing.com/20120913/acquire-and-release-semantics/
 https://stackoverflow.com/questions/6935442/x86-spinlock-using-cmpxchg  
 
 # Барьер памяти для x86
+https://man7.org/linux/man-pages/man2/membarrier.2.html  
+https://habr.com/ru/post/546880/  
+
 Барьер компилятора  
 ```asm volatile("" ::: "memory");```  
+
 Барьер процессора  
 ```asm volatile("mfence" ::: "memory");```  
 или  
 ```std::atomic_thread_fence(std::memory_order_seq_cst);```
+
+Полный барьер памяти на Си
+```
+smp_mb( );
+```
+
 
 # Spinlock
 https://en.wikipedia.org/wiki/Spinlock  
