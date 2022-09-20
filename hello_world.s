@@ -1,3 +1,5 @@
+# gcc -nostdlib hello_world.s
+
 .global _start
 
 .text
