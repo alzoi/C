@@ -1,3 +1,4 @@
+# https://gist.github.com/mishurov/6bcf04df329973c15044
 # gcc -nostdlib hello_world.s
 
 .global _start
