@@ -52,6 +52,7 @@ https://www.cs.cmu.edu/~213/lectures/07-machine-procedures.pdf
 [Which programming language is fastest?](https://benchmarksgame-team.pages.debian.net/benchmarksgame/index.html)  
 https://github.com/TechEmpower/FrameworkBenchmarks  
 https://www.techempower.com/benchmarks/  
+https://slides.com/gerold103/sysprog_eng0  
 
 # BackEnd C++ of web app
 [Building RESTful Web Service Using C++](https://hackernoon.com/building-restful-web-service-using-c-swagger-ui-and-auto-documented-endpoints-mb153udv)  
